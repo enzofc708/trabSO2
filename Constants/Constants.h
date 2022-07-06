@@ -1,0 +1,3 @@
+#define WORKING_SET_LIMIT 4
+#define MAX_PROCESSES 20 
+#define PAGES_PER_PROCESS 50 
