@@ -1,3 +1,4 @@
+//Smallest subdivision of a process that will fit into memory
 typedef struct Page
 {
     int present;        //Indicates wether the page is loaded in memory or not.
@@ -5,6 +6,7 @@ typedef struct Page
     int lastReference;  //Indicates when this page was last referenced, used in LRU algorithm.
 } Page;
 
+//Instantiates a Page and returns a pointer to it
 Page* createPage(){
     Page* pointer = (Page*) malloc(sizeof(Page));
     pointer->present = 0;

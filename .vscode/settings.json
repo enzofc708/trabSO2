@@ -2,6 +2,12 @@
     "files.associations": {
         "memorymanager.h": "c",
         "processlist.h": "c",
-        "stdlib.h": "c"
+        "stdlib.h": "c",
+        "*.tcc": "c",
+        "optional": "c",
+        "memory": "c",
+        "numeric": "c",
+        "cmath": "c",
+        "string": "c"
     }
 }

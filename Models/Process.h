@@ -1,8 +1,10 @@
+//Class that represents a Process and its pages
 typedef struct Process
 {
-    PagesList* pages;
+    PagesList* pages;   //List of all the Pages that belong to this Process
 } Process;
 
+//Instantiates a Process and returns a pointer to it
 Process* createProcess(){
     Process* pointer = (Process*) malloc(sizeof(Process));
     pointer->pages = createPageList();
@@ -14,6 +16,7 @@ Process* createProcess(){
     return pointer;
 }
 
+//Get all the Pages that are allocated in memory from a given Process 
 PagesList* getPresentPages(Process* p){
     PagesList* presentPages = createPageList();
     for (int i = 0; i < p->pages->count; i++)
@@ -24,6 +27,7 @@ PagesList* getPresentPages(Process* p){
     return presentPages;
 }
 
+//Get a random Page from a given Process
 Page* getRandomPage(Process* p){
     return p->pages->list[rand() % p->pages->count];
 }
