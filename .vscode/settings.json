@@ -1,6 +1,7 @@
 {
     "files.associations": {
         "memorymanager.h": "c",
-        "processlist.h": "c"
+        "processlist.h": "c",
+        "stdlib.h": "c"
     }
 }

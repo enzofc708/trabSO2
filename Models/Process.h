@@ -6,15 +6,24 @@ typedef struct Process
 Process* createProcess(){
     Process* pointer = (Process*) malloc(sizeof(Process));
     pointer->pages = createPageList();
+    for (int i = 0; i < PAGES_PER_PROCESS; i++)
+    {
+        Page* newPage = createPage();
+        addPage(pointer->pages, newPage);
+    }
     return pointer;
 }
 
-int findProcessPages(Process* p){
-    int pCount = 0;
+PagesList* getPresentPages(Process* p){
+    PagesList* presentPages = createPageList();
     for (int i = 0; i < p->pages->count; i++)
     {
         if(p->pages->list[i]->present)
-            pCount++;
+            addPage(presentPages, p->pages->list[i]);
     }
-    return pCount;
+    return presentPages;
+}
+
+Page* getRandomPage(Process* p){
+    return p->pages->list[rand() % p->pages->count];
 }

@@ -1,4 +1,5 @@
 #include <stdlib.h>
+#include <time.h>
 
 #include "Constants/Constants.h"
 #include "Models/Page.h"
@@ -10,6 +11,15 @@
 
 int main(int argc, char const *argv[])
 {
+    srand(time(NULL));
+
+    MemoryManager* m = createManager();
+
+    for (int i = 0; i < 10; i++)
+    {
+        iteration(m);
+    }
     
+
     return 0;
 }

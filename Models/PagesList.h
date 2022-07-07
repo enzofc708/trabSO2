@@ -8,3 +8,19 @@ PagesList* createPageList(){
     pointer->count = 0;
     return pointer;
 }
+
+void addPage(PagesList* pages, Page* p){
+    pages->list[pages->count++] = p;
+}
+
+Page* getLRUPage(PagesList* p){
+    Page* lruPage = p->list[0];
+    for (int i = 1; i < p->count; i++)
+    {
+        if(p->list[i]->lastReference < lruPage->lastReference){
+            lruPage = p->list[i];
+        }
+    }
+
+    return lruPage;     
+}
