@@ -27,18 +27,50 @@ void addNewProcess(MemoryManager* m){
     add(m->processes, newProcess);
 }
 
+//Counts the number of processes that have never been allocated
+int newProcessesCount(MemoryManager* m){
+    int counter = 0;
+    for (int i = 0; i < m->processes->count; i++)
+    {
+        if(m->processes->processList[i]->currentState == NewState){
+            counter++;
+        }
+    }
+    return counter;
+}
+
+//Deallocates all pages that belong to a given process
+int deallocProcessPages(MemoryManager* m, Process* p){
+    for (int i = 0; i < p->pages->count; i++)
+    {
+        Page* pointer = p->pages->list[i];
+        if (pointer->present)
+        {
+            pointer->present = 0;
+            m->frames->list[pointer->frameNumber] = 0;
+        }
+    }
+}
+
 //Allocates a random Page from a specified Process in the memory
-void allocPage(MemoryManager* m, Process* p){  
+void allocPage(MemoryManager* m, Process* p){
+    if(p->currentState == NewState){                //Updates state if process is new
+        p->currentState = RunningState;
+        p->statusTime = m->currentTime;
+    }
+    else if (p->currentState == BlockedState)
+    {
+        if(newProcessesCount(m) > 0) return;       //If there are still new processes, those blocked will remain blocked
+
+        Process* oldest = getOldestProcess();    
+    }
+       
     Page* rPage = getRandomPage(p);
     if(rPage->present){                             //update reference if the process is already allocated
         rPage->lastReference = m->currentTime; 
         return;
     }
     int emptyIndex = findEmpty(m->frames);
-
-    if (emptyIndex == -1){
-        //TODO: Implement swapping algorithm
-    }
 
     PagesList* presentPages = getPresentPages(p);
     if(presentPages->count == WORKING_SET_LIMIT){  

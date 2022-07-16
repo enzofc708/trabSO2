@@ -1,7 +1,9 @@
 //Class that represents a Process and its pages
 typedef struct Process
 {
-    PagesList* pages;   //List of all the Pages that belong to this Process
+    PagesList* pages;           //List of all the Pages that belong to this Process
+    int statusTime;             //The time when this process entered the current status
+    enum States currentState;   //Current state of the process
 } Process;
 
 //Instantiates a Process and returns a pointer to it
@@ -13,6 +15,8 @@ Process* createProcess(){
         Page* newPage = createPage();
         addPage(pointer->pages, newPage);
     }
+    pointer->statusTime = 0;
+    pointer->currentState = NewState;
     return pointer;
 }
 

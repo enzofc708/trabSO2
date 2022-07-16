@@ -2,6 +2,7 @@
 #include <time.h>
 
 #include "Constants/Constants.h"
+#include "Constants/States.h"
 #include "Models/Page.h"
 #include "Models/PagesList.h"
 #include "Models/Process.h"
