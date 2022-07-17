@@ -12,11 +12,25 @@
 
 int main(int argc, char const *argv[])
 {
+    //Seed the random number geenrator
     srand(time(NULL));
 
     MemoryManager* m = createManager();
 
-    while(1==1)
+    //Get arguments from console
+    if(argc < 2){
+        printf("Usage: %s <number_of_iterations>\n", argv[0]);
+        return 1;
+    }
+
+    int num_iters = atoi(argv[1]);
+    if (num_iters < 0)
+    {
+        printf("Number of iterations should not be less than 0.\n");
+        return 1;
+    }
+
+    for (int i = 0; i < num_iters; i++)   
     {
         iteration(m);
     }

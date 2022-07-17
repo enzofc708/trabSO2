@@ -23,6 +23,7 @@ MemoryManager* createManager(){
 
 //Creates a new Process and adds it to the processes list
 void addNewProcess(MemoryManager* m){
+    if(m->processes->count == MAX_PROCESSES) return;
     Process* newProcess = createProcess();
     add(m->processes, newProcess);
 }

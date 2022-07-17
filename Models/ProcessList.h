@@ -26,7 +26,7 @@ Process* getOldestRunningProcess(ProcessList* list){
             oldestP = list->processList[i];
             oldest = list->processList[i]->statusTime;
            }
-        else if(list->processList[i]->currentState = RunningState &&
+        else if(list->processList[i]->currentState == RunningState &&
             list->processList[i]->statusTime < oldest){
             oldestP = list->processList[i];
             oldest = list->processList[i]->statusTime;            
