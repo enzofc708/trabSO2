@@ -39,7 +39,7 @@ int newProcessesCount(MemoryManager* m){
     return counter;
 }
 
-//Deallocates all pages that belong to a given process
+//Deallocates all pages that belong to a given process and mark it as blocked
 int deallocProcessPages(MemoryManager* m, Process* p){
     for (int i = 0; i < p->pages->count; i++)
     {
@@ -50,6 +50,8 @@ int deallocProcessPages(MemoryManager* m, Process* p){
             m->frames->list[pointer->frameNumber] = 0;
         }
     }
+    p->currentState = BlockedState;
+    p->statusTime = m->currentTime;
 }
 
 //Allocates a random Page from a specified Process in the memory
@@ -62,7 +64,8 @@ void allocPage(MemoryManager* m, Process* p){
     {
         if(newProcessesCount(m) > 0) return;       //If there are still new processes, those blocked will remain blocked
 
-        Process* oldest = getOldestProcess();    
+        Process* oldest = getOldestRunningProcess();
+        deallocProcessPages(m, oldest);    
     }
        
     Page* rPage = getRandomPage(p);

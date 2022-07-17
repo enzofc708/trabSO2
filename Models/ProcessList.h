@@ -22,8 +22,15 @@ Process* getOldestRunningProcess(ProcessList* list){
     for (int i = 0; i < list->count; i++)
     {
         if(list->processList[i]->currentState == RunningState &&
-           list->processList[i]->statusTime < oldest &&
-           oldest )
+           oldest < 0){
+            oldestP = list->processList[i];
+            oldest = list->processList[i]->statusTime;
+           }
+        else if(list->processList[i]->currentState = RunningState &&
+            list->processList[i]->statusTime < oldest){
+            oldestP = list->processList[i];
+            oldest = list->processList[i]->statusTime;            
+        }
     }
-    
+    return oldestP;
 }
