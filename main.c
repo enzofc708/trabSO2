@@ -16,7 +16,7 @@ int main(int argc, char const *argv[])
 
     MemoryManager* m = createManager();
 
-    for (int i = 0; i < 10; i++)
+    while(1==1)
     {
         iteration(m);
     }

@@ -64,8 +64,11 @@ void allocPage(MemoryManager* m, Process* p){
     {
         if(newProcessesCount(m) > 0) return;       //If there are still new processes, those blocked will remain blocked
 
-        Process* oldest = getOldestRunningProcess();
-        deallocProcessPages(m, oldest);    
+        if(findEmpty(m->frames) >= 0) return;
+        
+        Process* oldest = getOldestRunningProcess(m->processes);
+        deallocProcessPages(m, oldest);
+        p->currentState = RunningState;
     }
        
     Page* rPage = getRandomPage(p);
@@ -74,6 +77,12 @@ void allocPage(MemoryManager* m, Process* p){
         return;
     }
     int emptyIndex = findEmpty(m->frames);
+
+    if(emptyIndex == -1){
+        Process* oldest = getOldestRunningProcess(m->processes);
+        deallocProcessPages(m, oldest);
+        emptyIndex = findEmpty(m->frames);
+    }
 
     PagesList* presentPages = getPresentPages(p);
     if(presentPages->count == WORKING_SET_LIMIT){  
