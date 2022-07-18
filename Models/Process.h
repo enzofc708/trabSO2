@@ -32,6 +32,9 @@ PagesList* getPresentPages(Process* p){
 }
 
 //Get a random Page from a given Process
-Page* getRandomPage(Process* p){
-    return p->pages->list[rand() % p->pages->count];
+Page* getRandomPage(Process* p, FILE* log){
+    int index = rand() % p->pages->count;
+    Page* selected = p->pages->list[index];
+    fprintf(log, "Page %d was randomly selected to be allocated.\n", index);
+    return selected;
 }

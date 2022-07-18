@@ -1,0 +1,543 @@
+******Log started:******
+-------------------------
+Time = 0
+-------------------------
+New process created! PID = 0.
+-------------------------
+Time = 3
+-------------------------
+Allocating page for process 0.
+New process is now running.
+Page 33 was randomly selected to be allocated.
+Page allocated on frame 0.
+Allocation for process 0 completed.
+New process created! PID = 1.
+-------------------------
+Time = 6
+-------------------------
+Allocating page for process 0.
+Page 15 was randomly selected to be allocated.
+Page allocated on frame 1.
+Allocation for process 0 completed.
+Allocating page for process 1.
+New process is now running.
+Page 17 was randomly selected to be allocated.
+Page allocated on frame 2.
+Allocation for process 1 completed.
+New process created! PID = 2.
+-------------------------
+Time = 9
+-------------------------
+Allocating page for process 0.
+Page 9 was randomly selected to be allocated.
+Page allocated on frame 3.
+Allocation for process 0 completed.
+Allocating page for process 1.
+Page 28 was randomly selected to be allocated.
+Page allocated on frame 4.
+Allocation for process 1 completed.
+Allocating page for process 2.
+New process is now running.
+Page 31 was randomly selected to be allocated.
+Page allocated on frame 5.
+Allocation for process 2 completed.
+New process created! PID = 3.
+-------------------------
+Time = 12
+-------------------------
+Allocating page for process 0.
+Page 21 was randomly selected to be allocated.
+Page allocated on frame 6.
+Allocation for process 0 completed.
+Allocating page for process 1.
+Page 8 was randomly selected to be allocated.
+Page allocated on frame 7.
+Allocation for process 1 completed.
+Allocating page for process 2.
+Page 15 was randomly selected to be allocated.
+Page allocated on frame 8.
+Allocation for process 2 completed.
+Allocating page for process 3.
+New process is now running.
+Page 4 was randomly selected to be allocated.
+Page allocated on frame 9.
+Allocation for process 3 completed.
+New process created! PID = 4.
+-------------------------
+Time = 15
+-------------------------
+Allocating page for process 0.
+Page 12 was randomly selected to be allocated.
+Working set limit restriction. Applying LRU algorithm.
+Page allocated on frame 0.
+Allocation for process 0 completed.
+Allocating page for process 1.
+Page 41 was randomly selected to be allocated.
+Page allocated on frame 10.
+Allocation for process 1 completed.
+Allocating page for process 2.
+Page 15 was randomly selected to be allocated.
+Page already allocated. Updating reference.
+Allocation for process 2 completed.
+Allocating page for process 3.
+Page 41 was randomly selected to be allocated.
+Page allocated on frame 11.
+Allocation for process 3 completed.
+Allocating page for process 4.
+New process is now running.
+Page 10 was randomly selected to be allocated.
+Page allocated on frame 12.
+Allocation for process 4 completed.
+New process created! PID = 5.
+-------------------------
+Time = 18
+-------------------------
+Allocating page for process 0.
+Page 28 was randomly selected to be allocated.
+Working set limit restriction. Applying LRU algorithm.
+Page allocated on frame 1.
+Allocation for process 0 completed.
+Allocating page for process 1.
+Page 34 was randomly selected to be allocated.
+Working set limit restriction. Applying LRU algorithm.
+Page allocated on frame 2.
+Allocation for process 1 completed.
+Allocating page for process 2.
+Page 16 was randomly selected to be allocated.
+Page allocated on frame 13.
+Allocation for process 2 completed.
+Allocating page for process 3.
+Page 19 was randomly selected to be allocated.
+Page allocated on frame 14.
+Allocation for process 3 completed.
+Allocating page for process 4.
+Page 0 was randomly selected to be allocated.
+Page allocated on frame 15.
+Allocation for process 4 completed.
+Allocating page for process 5.
+New process is now running.
+Page 34 was randomly selected to be allocated.
+Page allocated on frame 16.
+Allocation for process 5 completed.
+New process created! PID = 6.
+-------------------------
+Time = 21
+-------------------------
+Allocating page for process 0.
+Page 46 was randomly selected to be allocated.
+Working set limit restriction. Applying LRU algorithm.
+Page allocated on frame 3.
+Allocation for process 0 completed.
+Allocating page for process 1.
+Page 6 was randomly selected to be allocated.
+Working set limit restriction. Applying LRU algorithm.
+Page allocated on frame 4.
+Allocation for process 1 completed.
+Allocating page for process 2.
+Page 18 was randomly selected to be allocated.
+Page allocated on frame 17.
+Allocation for process 2 completed.
+Allocating page for process 3.
+Page 37 was randomly selected to be allocated.
+Page allocated on frame 18.
+Allocation for process 3 completed.
+Allocating page for process 4.
+Page 45 was randomly selected to be allocated.
+Page allocated on frame 19.
+Allocation for process 4 completed.
+Allocating page for process 5.
+Page 14 was randomly selected to be allocated.
+Page allocated on frame 20.
+Allocation for process 5 completed.
+Allocating page for process 6.
+New process is now running.
+Page 14 was randomly selected to be allocated.
+Page allocated on frame 21.
+Allocation for process 6 completed.
+New process created! PID = 7.
+-------------------------
+Time = 24
+-------------------------
+Allocating page for process 0.
+Page 48 was randomly selected to be allocated.
+Working set limit restriction. Applying LRU algorithm.
+Page allocated on frame 6.
+Allocation for process 0 completed.
+Allocating page for process 1.
+Page 6 was randomly selected to be allocated.
+Page already allocated. Updating reference.
+Allocation for process 1 completed.
+Allocating page for process 2.
+Page 48 was randomly selected to be allocated.
+Working set limit restriction. Applying LRU algorithm.
+Page allocated on frame 5.
+Allocation for process 2 completed.
+Allocating page for process 3.
+Page 31 was randomly selected to be allocated.
+Working set limit restriction. Applying LRU algorithm.
+Page allocated on frame 9.
+Allocation for process 3 completed.
+Allocating page for process 4.
+Page 21 was randomly selected to be allocated.
+Page allocated on frame 22.
+Allocation for process 4 completed.
+Allocating page for process 5.
+Page 17 was randomly selected to be allocated.
+Page allocated on frame 23.
+Allocation for process 5 completed.
+Allocating page for process 6.
+Page 40 was randomly selected to be allocated.
+Page allocated on frame 24.
+Allocation for process 6 completed.
+Allocating page for process 7.
+New process is now running.
+Page 1 was randomly selected to be allocated.
+Page allocated on frame 25.
+Allocation for process 7 completed.
+New process created! PID = 8.
+-------------------------
+Time = 27
+-------------------------
+Allocating page for process 0.
+Page 49 was randomly selected to be allocated.
+Working set limit restriction. Applying LRU algorithm.
+Page allocated on frame 0.
+Allocation for process 0 completed.
+Allocating page for process 1.
+Page 13 was randomly selected to be allocated.
+Working set limit restriction. Applying LRU algorithm.
+Page allocated on frame 7.
+Allocation for process 1 completed.
+Allocating page for process 2.
+Page 10 was randomly selected to be allocated.
+Working set limit restriction. Applying LRU algorithm.
+Page allocated on frame 8.
+Allocation for process 2 completed.
+Allocating page for process 3.
+Page 16 was randomly selected to be allocated.
+Working set limit restriction. Applying LRU algorithm.
+Page allocated on frame 11.
+Allocation for process 3 completed.
+Allocating page for process 4.
+Page 19 was randomly selected to be allocated.
+Working set limit restriction. Applying LRU algorithm.
+Page allocated on frame 12.
+Allocation for process 4 completed.
+Allocating page for process 5.
+Page 22 was randomly selected to be allocated.
+Page allocated on frame 26.
+Allocation for process 5 completed.
+Allocating page for process 6.
+Page 7 was randomly selected to be allocated.
+Page allocated on frame 27.
+Allocation for process 6 completed.
+Allocating page for process 7.
+Page 34 was randomly selected to be allocated.
+Page allocated on frame 28.
+Allocation for process 7 completed.
+Allocating page for process 8.
+New process is now running.
+Page 15 was randomly selected to be allocated.
+Page allocated on frame 29.
+Allocation for process 8 completed.
+New process created! PID = 9.
+-------------------------
+Time = 30
+-------------------------
+Allocating page for process 0.
+Page 19 was randomly selected to be allocated.
+Working set limit restriction. Applying LRU algorithm.
+Page allocated on frame 1.
+Allocation for process 0 completed.
+Allocating page for process 1.
+Page 12 was randomly selected to be allocated.
+Working set limit restriction. Applying LRU algorithm.
+Page allocated on frame 10.
+Allocation for process 1 completed.
+Allocating page for process 2.
+Page 0 was randomly selected to be allocated.
+Working set limit restriction. Applying LRU algorithm.
+Page allocated on frame 13.
+Allocation for process 2 completed.
+Allocating page for process 3.
+Page 35 was randomly selected to be allocated.
+Working set limit restriction. Applying LRU algorithm.
+Page allocated on frame 14.
+Allocation for process 3 completed.
+Allocating page for process 4.
+Page 33 was randomly selected to be allocated.
+Working set limit restriction. Applying LRU algorithm.
+Page allocated on frame 15.
+Allocation for process 4 completed.
+Allocating page for process 5.
+Page 0 was randomly selected to be allocated.
+Working set limit restriction. Applying LRU algorithm.
+Page allocated on frame 16.
+Allocation for process 5 completed.
+Allocating page for process 6.
+Page 21 was randomly selected to be allocated.
+Page allocated on frame 30.
+Allocation for process 6 completed.
+Allocating page for process 7.
+Page 31 was randomly selected to be allocated.
+Page allocated on frame 31.
+Allocation for process 7 completed.
+Allocating page for process 8.
+Page 8 was randomly selected to be allocated.
+Page allocated on frame 32.
+Allocation for process 8 completed.
+Allocating page for process 9.
+New process is now running.
+Page 41 was randomly selected to be allocated.
+Page allocated on frame 33.
+Allocation for process 9 completed.
+New process created! PID = 10.
+-------------------------
+Time = 33
+-------------------------
+Allocating page for process 0.
+Page 18 was randomly selected to be allocated.
+Working set limit restriction. Applying LRU algorithm.
+Page allocated on frame 3.
+Allocation for process 0 completed.
+Allocating page for process 1.
+Page 3 was randomly selected to be allocated.
+Working set limit restriction. Applying LRU algorithm.
+Page allocated on frame 2.
+Allocation for process 1 completed.
+Allocating page for process 2.
+Page 6 was randomly selected to be allocated.
+Working set limit restriction. Applying LRU algorithm.
+Page allocated on frame 17.
+Allocation for process 2 completed.
+Allocating page for process 3.
+Page 35 was randomly selected to be allocated.
+Page already allocated. Updating reference.
+Allocation for process 3 completed.
+Allocating page for process 4.
+Page 1 was randomly selected to be allocated.
+Working set limit restriction. Applying LRU algorithm.
+Page allocated on frame 19.
+Allocation for process 4 completed.
+Allocating page for process 5.
+Page 14 was randomly selected to be allocated.
+Page already allocated. Updating reference.
+Allocation for process 5 completed.
+Allocating page for process 6.
+Page 33 was randomly selected to be allocated.
+Working set limit restriction. Applying LRU algorithm.
+Page allocated on frame 21.
+Allocation for process 6 completed.
+Allocating page for process 7.
+Page 34 was randomly selected to be allocated.
+Page already allocated. Updating reference.
+Allocation for process 7 completed.
+Allocating page for process 8.
+Page 37 was randomly selected to be allocated.
+Page allocated on frame 34.
+Allocation for process 8 completed.
+Allocating page for process 9.
+Page 1 was randomly selected to be allocated.
+Page allocated on frame 35.
+Allocation for process 9 completed.
+Allocating page for process 10.
+New process is now running.
+Page 24 was randomly selected to be allocated.
+Page allocated on frame 36.
+Allocation for process 10 completed.
+New process created! PID = 11.
+-------------------------
+Time = 36
+-------------------------
+Allocating page for process 0.
+Page 39 was randomly selected to be allocated.
+Working set limit restriction. Applying LRU algorithm.
+Page allocated on frame 6.
+Allocation for process 0 completed.
+Allocating page for process 1.
+Page 0 was randomly selected to be allocated.
+Working set limit restriction. Applying LRU algorithm.
+Page allocated on frame 4.
+Allocation for process 1 completed.
+Allocating page for process 2.
+Page 39 was randomly selected to be allocated.
+Working set limit restriction. Applying LRU algorithm.
+Page allocated on frame 5.
+Allocation for process 2 completed.
+Allocating page for process 3.
+Page 49 was randomly selected to be allocated.
+Working set limit restriction. Applying LRU algorithm.
+Page allocated on frame 18.
+Allocation for process 3 completed.
+Allocating page for process 4.
+Page 18 was randomly selected to be allocated.
+Working set limit restriction. Applying LRU algorithm.
+Page allocated on frame 22.
+Allocation for process 4 completed.
+Allocating page for process 5.
+Page 8 was randomly selected to be allocated.
+Working set limit restriction. Applying LRU algorithm.
+Page allocated on frame 23.
+Allocation for process 5 completed.
+Allocating page for process 6.
+Page 23 was randomly selected to be allocated.
+Working set limit restriction. Applying LRU algorithm.
+Page allocated on frame 24.
+Allocation for process 6 completed.
+Allocating page for process 7.
+Page 25 was randomly selected to be allocated.
+Page allocated on frame 37.
+Allocation for process 7 completed.
+Allocating page for process 8.
+Page 44 was randomly selected to be allocated.
+Page allocated on frame 38.
+Allocation for process 8 completed.
+Allocating page for process 9.
+Page 39 was randomly selected to be allocated.
+Page allocated on frame 39.
+Allocation for process 9 completed.
+Allocating page for process 10.
+Page 46 was randomly selected to be allocated.
+Page allocated on frame 40.
+Allocation for process 10 completed.
+Allocating page for process 11.
+New process is now running.
+Page 8 was randomly selected to be allocated.
+Page allocated on frame 41.
+Allocation for process 11 completed.
+New process created! PID = 12.
+-------------------------
+Time = 39
+-------------------------
+Allocating page for process 0.
+Page 41 was randomly selected to be allocated.
+Working set limit restriction. Applying LRU algorithm.
+Page allocated on frame 0.
+Allocation for process 0 completed.
+Allocating page for process 1.
+Page 31 was randomly selected to be allocated.
+Working set limit restriction. Applying LRU algorithm.
+Page allocated on frame 7.
+Allocation for process 1 completed.
+Allocating page for process 2.
+Page 41 was randomly selected to be allocated.
+Working set limit restriction. Applying LRU algorithm.
+Page allocated on frame 8.
+Allocation for process 2 completed.
+Allocating page for process 3.
+Page 41 was randomly selected to be allocated.
+Working set limit restriction. Applying LRU algorithm.
+Page allocated on frame 9.
+Allocation for process 3 completed.
+Allocating page for process 4.
+Page 5 was randomly selected to be allocated.
+Working set limit restriction. Applying LRU algorithm.
+Page allocated on frame 12.
+Allocation for process 4 completed.
+Allocating page for process 5.
+Page 24 was randomly selected to be allocated.
+Working set limit restriction. Applying LRU algorithm.
+Page allocated on frame 26.
+Allocation for process 5 completed.
+Allocating page for process 6.
+Page 1 was randomly selected to be allocated.
+Working set limit restriction. Applying LRU algorithm.
+Page allocated on frame 27.
+Allocation for process 6 completed.
+Allocating page for process 7.
+Page 46 was randomly selected to be allocated.
+Working set limit restriction. Applying LRU algorithm.
+Page allocated on frame 25.
+Allocation for process 7 completed.
+Allocating page for process 8.
+Page 45 was randomly selected to be allocated.
+Working set limit restriction. Applying LRU algorithm.
+Page allocated on frame 29.
+Allocation for process 8 completed.
+Allocating page for process 9.
+Page 6 was randomly selected to be allocated.
+Page allocated on frame 42.
+Allocation for process 9 completed.
+Allocating page for process 10.
+Page 4 was randomly selected to be allocated.
+Page allocated on frame 43.
+Allocation for process 10 completed.
+Allocating page for process 11.
+Page 30 was randomly selected to be allocated.
+Page allocated on frame 44.
+Allocation for process 11 completed.
+Allocating page for process 12.
+New process is now running.
+Page 7 was randomly selected to be allocated.
+Page allocated on frame 45.
+Allocation for process 12 completed.
+New process created! PID = 13.
+-------------------------
+Time = 42
+-------------------------
+Allocating page for process 0.
+Page 18 was randomly selected to be allocated.
+Page already allocated. Updating reference.
+Allocation for process 0 completed.
+Allocating page for process 1.
+Page 15 was randomly selected to be allocated.
+Working set limit restriction. Applying LRU algorithm.
+Page allocated on frame 10.
+Allocation for process 1 completed.
+Allocating page for process 2.
+Page 43 was randomly selected to be allocated.
+Working set limit restriction. Applying LRU algorithm.
+Page allocated on frame 13.
+Allocation for process 2 completed.
+Allocating page for process 3.
+Page 6 was randomly selected to be allocated.
+Working set limit restriction. Applying LRU algorithm.
+Page allocated on frame 11.
+Allocation for process 3 completed.
+Allocating page for process 4.
+Page 18 was randomly selected to be allocated.
+Page already allocated. Updating reference.
+Allocation for process 4 completed.
+Allocating page for process 5.
+Page 19 was randomly selected to be allocated.
+Working set limit restriction. Applying LRU algorithm.
+Page allocated on frame 16.
+Allocation for process 5 completed.
+Allocating page for process 6.
+Page 45 was randomly selected to be allocated.
+Working set limit restriction. Applying LRU algorithm.
+Page allocated on frame 30.
+Allocation for process 6 completed.
+Allocating page for process 7.
+Page 20 was randomly selected to be allocated.
+Working set limit restriction. Applying LRU algorithm.
+Page allocated on frame 31.
+Allocation for process 7 completed.
+Allocating page for process 8.
+Page 8 was randomly selected to be allocated.
+Page already allocated. Updating reference.
+Allocation for process 8 completed.
+Allocating page for process 9.
+Page 46 was randomly selected to be allocated.
+Working set limit restriction. Applying LRU algorithm.
+Page allocated on frame 33.
+Allocation for process 9 completed.
+Allocating page for process 10.
+Page 38 was randomly selected to be allocated.
+Page allocated on frame 46.
+Allocation for process 10 completed.
+Allocating page for process 11.
+Page 18 was randomly selected to be allocated.
+Page allocated on frame 47.
+Allocation for process 11 completed.
+Allocating page for process 12.
+Page 21 was randomly selected to be allocated.
+Page allocated on frame 48.
+Allocation for process 12 completed.
+Allocating page for process 13.
+New process is now running.
+Page 15 was randomly selected to be allocated.
+Page allocated on frame 49.
+Allocation for process 13 completed.
+New process created! PID = 14.
+******End of execution.******

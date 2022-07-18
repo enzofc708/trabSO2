@@ -1,5 +1,6 @@
 #include <stdlib.h>
 #include <time.h>
+#include <stdio.h>
 
 #include "Constants/Constants.h"
 #include "Constants/States.h"
@@ -30,11 +31,15 @@ int main(int argc, char const *argv[])
         return 1;
     }
 
+    //Open Log file
+    FILE* log = fopen("execLog.txt", "w");
+    fprintf(log, "******Log started:******\n");
     for (int i = 0; i < num_iters; i++)   
     {
-        iteration(m);
+        iteration(m, log);
     }
-    
+    fprintf(log, "******End of execution.******\n");
+    fclose(log);
 
     return 0;
 }

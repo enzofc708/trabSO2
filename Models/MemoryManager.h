@@ -22,10 +22,11 @@ MemoryManager* createManager(){
 }
 
 //Creates a new Process and adds it to the processes list
-void addNewProcess(MemoryManager* m){
+void addNewProcess(MemoryManager* m, FILE* log){
     if(m->processes->count == MAX_PROCESSES) return;
     Process* newProcess = createProcess();
     add(m->processes, newProcess);
+    fprintf(log, "New process created! PID = %d.\n", m->processes->count - 1);
 }
 
 //Counts the number of processes that have never been allocated
@@ -56,37 +57,46 @@ int deallocProcessPages(MemoryManager* m, Process* p){
 }
 
 //Allocates a random Page from a specified Process in the memory
-void allocPage(MemoryManager* m, Process* p){
+void allocPage(MemoryManager* m, Process* p, FILE* log){
     if(p->currentState == NewState){                //Updates state if process is new
         p->currentState = RunningState;
         p->statusTime = m->currentTime;
+        fprintf(log, "New process is now running.\n");
     }
     else if (p->currentState == BlockedState)
     {
-        if(newProcessesCount(m) > 0) return;       //If there are still new processes, those blocked will remain blocked
-
-        if(findEmpty(m->frames) >= 0) return;
+        if(newProcessesCount(m) > 0){
+            fprintf(log, "Process is blocked and there are still new processes to be allocated. Skipping.\n");
+            return;       //If there are still new processes, those blocked will remain blocked
+        }
+        if(findEmpty(m->frames) >= 0){
+            fprintf(log, "Process is blocked and there are still empty frames available. Skipping.\n");
+            return;
+        }
         
-        Process* oldest = getOldestRunningProcess(m->processes);
+        Process* oldest = getOldestRunningProcess(m->processes, log);
         deallocProcessPages(m, oldest);
         p->currentState = RunningState;
+        fprintf(log, "Blocked process returned to memory.\n");
     }
        
-    Page* rPage = getRandomPage(p);
+    Page* rPage = getRandomPage(p, log);
     if(rPage->present){                             //update reference if the process is already allocated
+        fprintf(log, "Page already allocated. Updating reference.\n");
         rPage->lastReference = m->currentTime; 
         return;
     }
     int emptyIndex = findEmpty(m->frames);
 
     if(emptyIndex == -1){
-        Process* oldest = getOldestRunningProcess(m->processes);
+        Process* oldest = getOldestRunningProcess(m->processes, log);
         deallocProcessPages(m, oldest);
         emptyIndex = findEmpty(m->frames);
     }
 
     PagesList* presentPages = getPresentPages(p);
     if(presentPages->count == WORKING_SET_LIMIT){  
+        fprintf(log, "Working set limit restriction. Applying LRU algorithm.\n");
         Page* lruPage = getLRUPage(presentPages);
         emptyIndex = lruPage->frameNumber;
         lruPage->present = 0;
@@ -95,16 +105,22 @@ void allocPage(MemoryManager* m, Process* p){
     rPage->present = 1;
     rPage->lastReference = m->currentTime;
     rPage->frameNumber = emptyIndex;
+    fprintf(log, "Page allocated on frame %d.\n", emptyIndex);
 }
 
 //Controls the period of time when either a process is
 //created or requests a page allocation
-void iteration(MemoryManager* m){
-    m->currentTime += 3;
+void iteration(MemoryManager* m, FILE* log){
+    fprintf(log, "-------------------------\n");
+    fprintf(log, "Time = %d\n", m->currentTime);
+    fprintf(log, "-------------------------\n");
     for (int i = 0; i < m->processes->count; i++)
     {
-        allocPage(m, m->processes->processList[i]);
+        fprintf(log, "Allocating page for process %d.\n", i);
+        allocPage(m, m->processes->processList[i], log);
+        fprintf(log, "Allocation for process %d completed.\n", i);
     }
 
-    addNewProcess(m);
+    addNewProcess(m, log);
+    m->currentTime += 3;
 }
