@@ -28,3 +28,12 @@ Page* getLRUPage(PagesList* p){
 
     return lruPage;     
 }
+
+int findPage(PagesList* list, Page* p){
+    for(int i = 0; i < list->count; i++){
+        if(list->list[i] == p){
+            return i;
+        }
+    }
+    return -1;
+}

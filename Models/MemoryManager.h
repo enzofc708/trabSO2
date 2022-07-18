@@ -98,6 +98,7 @@ void allocPage(MemoryManager* m, Process* p, FILE* log){
     if(presentPages->count == WORKING_SET_LIMIT){  
         fprintf(log, "Working set limit restriction. Applying LRU algorithm.\n");
         Page* lruPage = getLRUPage(presentPages);
+        fprintf(log, "LRU completed!. Page %d was chosen to be replaced.\n", findPage(p->pages, lruPage));
         emptyIndex = lruPage->frameNumber;
         lruPage->present = 0;
     }

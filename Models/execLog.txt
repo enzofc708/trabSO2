@@ -8,7 +8,7 @@ Time = 3
 -------------------------
 Allocating page for process 0.
 New process is now running.
-Page 33 was randomly selected to be allocated.
+Page 16 was randomly selected to be allocated.
 Page allocated on frame 0.
 Allocation for process 0 completed.
 New process created! PID = 1.
@@ -16,12 +16,12 @@ New process created! PID = 1.
 Time = 6
 -------------------------
 Allocating page for process 0.
-Page 42 was randomly selected to be allocated.
+Page 13 was randomly selected to be allocated.
 Page allocated on frame 1.
 Allocation for process 0 completed.
 Allocating page for process 1.
 New process is now running.
-Page 26 was randomly selected to be allocated.
+Page 30 was randomly selected to be allocated.
 Page allocated on frame 2.
 Allocation for process 1 completed.
 New process created! PID = 2.
@@ -29,16 +29,16 @@ New process created! PID = 2.
 Time = 9
 -------------------------
 Allocating page for process 0.
-Page 16 was randomly selected to be allocated.
+Page 41 was randomly selected to be allocated.
 Page allocated on frame 3.
 Allocation for process 0 completed.
 Allocating page for process 1.
-Page 43 was randomly selected to be allocated.
+Page 46 was randomly selected to be allocated.
 Page allocated on frame 4.
 Allocation for process 1 completed.
 Allocating page for process 2.
 New process is now running.
-Page 25 was randomly selected to be allocated.
+Page 44 was randomly selected to be allocated.
 Page allocated on frame 5.
 Allocation for process 2 completed.
 New process created! PID = 3.
@@ -46,20 +46,20 @@ New process created! PID = 3.
 Time = 12
 -------------------------
 Allocating page for process 0.
-Page 37 was randomly selected to be allocated.
+Page 39 was randomly selected to be allocated.
 Page allocated on frame 6.
 Allocation for process 0 completed.
 Allocating page for process 1.
-Page 19 was randomly selected to be allocated.
+Page 21 was randomly selected to be allocated.
 Page allocated on frame 7.
 Allocation for process 1 completed.
 Allocating page for process 2.
-Page 35 was randomly selected to be allocated.
+Page 29 was randomly selected to be allocated.
 Page allocated on frame 8.
 Allocation for process 2 completed.
 Allocating page for process 3.
 New process is now running.
-Page 27 was randomly selected to be allocated.
+Page 14 was randomly selected to be allocated.
 Page allocated on frame 9.
 Allocation for process 3 completed.
 New process created! PID = 4.
@@ -67,26 +67,26 @@ New process created! PID = 4.
 Time = 15
 -------------------------
 Allocating page for process 0.
-Page 19 was randomly selected to be allocated.
+Page 25 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 33 was chosen to be replaced.
+LRU completed!. Page 16 was chosen to be replaced.
 Page allocated on frame 0.
 Allocation for process 0 completed.
 Allocating page for process 1.
-Page 22 was randomly selected to be allocated.
+Page 35 was randomly selected to be allocated.
 Page allocated on frame 10.
 Allocation for process 1 completed.
 Allocating page for process 2.
-Page 43 was randomly selected to be allocated.
+Page 4 was randomly selected to be allocated.
 Page allocated on frame 11.
 Allocation for process 2 completed.
 Allocating page for process 3.
-Page 6 was randomly selected to be allocated.
+Page 30 was randomly selected to be allocated.
 Page allocated on frame 12.
 Allocation for process 3 completed.
 Allocating page for process 4.
 New process is now running.
-Page 30 was randomly selected to be allocated.
+Page 8 was randomly selected to be allocated.
 Page allocated on frame 13.
 Allocation for process 4 completed.
 New process created! PID = 5.
@@ -94,58 +94,56 @@ New process created! PID = 5.
 Time = 18
 -------------------------
 Allocating page for process 0.
-Page 24 was randomly selected to be allocated.
+Page 43 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 42 was chosen to be replaced.
+LRU completed!. Page 13 was chosen to be replaced.
 Page allocated on frame 1.
 Allocation for process 0 completed.
 Allocating page for process 1.
-Page 49 was randomly selected to be allocated.
+Page 45 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 26 was chosen to be replaced.
+LRU completed!. Page 30 was chosen to be replaced.
 Page allocated on frame 2.
 Allocation for process 1 completed.
 Allocating page for process 2.
-Page 12 was randomly selected to be allocated.
-Page allocated on frame 14.
+Page 29 was randomly selected to be allocated.
+Page already allocated. Updating reference.
 Allocation for process 2 completed.
 Allocating page for process 3.
-Page 36 was randomly selected to be allocated.
-Page allocated on frame 15.
+Page 40 was randomly selected to be allocated.
+Page allocated on frame 14.
 Allocation for process 3 completed.
 Allocating page for process 4.
-Page 3 was randomly selected to be allocated.
-Page allocated on frame 16.
+Page 39 was randomly selected to be allocated.
+Page allocated on frame 15.
 Allocation for process 4 completed.
 Allocating page for process 5.
 New process is now running.
-Page 4 was randomly selected to be allocated.
-Page allocated on frame 17.
+Page 5 was randomly selected to be allocated.
+Page allocated on frame 16.
 Allocation for process 5 completed.
 New process created! PID = 6.
 -------------------------
 Time = 21
 -------------------------
 Allocating page for process 0.
-Page 29 was randomly selected to be allocated.
+Page 1 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 16 was chosen to be replaced.
+LRU completed!. Page 41 was chosen to be replaced.
 Page allocated on frame 3.
 Allocation for process 0 completed.
 Allocating page for process 1.
-Page 2 was randomly selected to be allocated.
+Page 43 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 43 was chosen to be replaced.
+LRU completed!. Page 46 was chosen to be replaced.
 Page allocated on frame 4.
 Allocation for process 1 completed.
 Allocating page for process 2.
-Page 36 was randomly selected to be allocated.
-Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 25 was chosen to be replaced.
-Page allocated on frame 5.
+Page 46 was randomly selected to be allocated.
+Page allocated on frame 17.
 Allocation for process 2 completed.
 Allocating page for process 3.
-Page 3 was randomly selected to be allocated.
+Page 49 was randomly selected to be allocated.
 Page allocated on frame 18.
 Allocation for process 3 completed.
 Allocating page for process 4.
@@ -153,12 +151,12 @@ Page 25 was randomly selected to be allocated.
 Page allocated on frame 19.
 Allocation for process 4 completed.
 Allocating page for process 5.
-Page 26 was randomly selected to be allocated.
+Page 19 was randomly selected to be allocated.
 Page allocated on frame 20.
 Allocation for process 5 completed.
 Allocating page for process 6.
 New process is now running.
-Page 13 was randomly selected to be allocated.
+Page 44 was randomly selected to be allocated.
 Page allocated on frame 21.
 Allocation for process 6 completed.
 New process created! PID = 7.
@@ -166,44 +164,42 @@ New process created! PID = 7.
 Time = 24
 -------------------------
 Allocating page for process 0.
-Page 4 was randomly selected to be allocated.
-Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 37 was chosen to be replaced.
-Page allocated on frame 6.
+Page 25 was randomly selected to be allocated.
+Page already allocated. Updating reference.
 Allocation for process 0 completed.
 Allocating page for process 1.
-Page 6 was randomly selected to be allocated.
+Page 8 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 19 was chosen to be replaced.
+LRU completed!. Page 21 was chosen to be replaced.
 Page allocated on frame 7.
 Allocation for process 1 completed.
 Allocating page for process 2.
-Page 38 was randomly selected to be allocated.
+Page 15 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 35 was chosen to be replaced.
-Page allocated on frame 8.
+LRU completed!. Page 44 was chosen to be replaced.
+Page allocated on frame 5.
 Allocation for process 2 completed.
 Allocating page for process 3.
-Page 39 was randomly selected to be allocated.
+Page 41 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 27 was chosen to be replaced.
+LRU completed!. Page 14 was chosen to be replaced.
 Page allocated on frame 9.
 Allocation for process 3 completed.
 Allocating page for process 4.
-Page 0 was randomly selected to be allocated.
+Page 24 was randomly selected to be allocated.
 Page allocated on frame 22.
 Allocation for process 4 completed.
 Allocating page for process 5.
-Page 15 was randomly selected to be allocated.
+Page 45 was randomly selected to be allocated.
 Page allocated on frame 23.
 Allocation for process 5 completed.
 Allocating page for process 6.
-Page 6 was randomly selected to be allocated.
+Page 34 was randomly selected to be allocated.
 Page allocated on frame 24.
 Allocation for process 6 completed.
 Allocating page for process 7.
 New process is now running.
-Page 44 was randomly selected to be allocated.
+Page 20 was randomly selected to be allocated.
 Page allocated on frame 25.
 Allocation for process 7 completed.
 New process created! PID = 8.
@@ -211,107 +207,105 @@ New process created! PID = 8.
 Time = 27
 -------------------------
 Allocating page for process 0.
-Page 42 was randomly selected to be allocated.
+Page 40 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 19 was chosen to be replaced.
-Page allocated on frame 0.
+LRU completed!. Page 39 was chosen to be replaced.
+Page allocated on frame 6.
 Allocation for process 0 completed.
 Allocating page for process 1.
-Page 45 was randomly selected to be allocated.
+Page 24 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 22 was chosen to be replaced.
+LRU completed!. Page 35 was chosen to be replaced.
 Page allocated on frame 10.
 Allocation for process 1 completed.
 Allocating page for process 2.
-Page 13 was randomly selected to be allocated.
+Page 44 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 43 was chosen to be replaced.
+LRU completed!. Page 4 was chosen to be replaced.
 Page allocated on frame 11.
 Allocation for process 2 completed.
 Allocating page for process 3.
-Page 28 was randomly selected to be allocated.
+Page 21 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 6 was chosen to be replaced.
+LRU completed!. Page 30 was chosen to be replaced.
 Page allocated on frame 12.
 Allocation for process 3 completed.
 Allocating page for process 4.
-Page 22 was randomly selected to be allocated.
+Page 38 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 30 was chosen to be replaced.
+LRU completed!. Page 8 was chosen to be replaced.
 Page allocated on frame 13.
 Allocation for process 4 completed.
 Allocating page for process 5.
-Page 34 was randomly selected to be allocated.
-Page allocated on frame 26.
+Page 19 was randomly selected to be allocated.
+Page already allocated. Updating reference.
 Allocation for process 5 completed.
 Allocating page for process 6.
-Page 0 was randomly selected to be allocated.
-Page allocated on frame 27.
+Page 6 was randomly selected to be allocated.
+Page allocated on frame 26.
 Allocation for process 6 completed.
 Allocating page for process 7.
-Page 18 was randomly selected to be allocated.
-Page allocated on frame 28.
+Page 44 was randomly selected to be allocated.
+Page allocated on frame 27.
 Allocation for process 7 completed.
 Allocating page for process 8.
 New process is now running.
-Page 40 was randomly selected to be allocated.
-Page allocated on frame 29.
+Page 1 was randomly selected to be allocated.
+Page allocated on frame 28.
 Allocation for process 8 completed.
 New process created! PID = 9.
 -------------------------
 Time = 30
 -------------------------
 Allocating page for process 0.
-Page 32 was randomly selected to be allocated.
+Page 17 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 24 was chosen to be replaced.
+LRU completed!. Page 43 was chosen to be replaced.
 Page allocated on frame 1.
 Allocation for process 0 completed.
 Allocating page for process 1.
-Page 42 was randomly selected to be allocated.
+Page 37 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 49 was chosen to be replaced.
+LRU completed!. Page 45 was chosen to be replaced.
 Page allocated on frame 2.
 Allocation for process 1 completed.
 Allocating page for process 2.
-Page 41 was randomly selected to be allocated.
-Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 12 was chosen to be replaced.
-Page allocated on frame 14.
-Allocation for process 2 completed.
-Allocating page for process 3.
 Page 47 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 36 was chosen to be replaced.
-Page allocated on frame 15.
+LRU completed!. Page 29 was chosen to be replaced.
+Page allocated on frame 8.
+Allocation for process 2 completed.
+Allocating page for process 3.
+Page 48 was randomly selected to be allocated.
+Working set limit restriction. Applying LRU algorithm.
+LRU completed!. Page 40 was chosen to be replaced.
+Page allocated on frame 14.
 Allocation for process 3 completed.
 Allocating page for process 4.
-Page 30 was randomly selected to be allocated.
+Page 28 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 3 was chosen to be replaced.
-Page allocated on frame 16.
+LRU completed!. Page 39 was chosen to be replaced.
+Page allocated on frame 15.
 Allocation for process 4 completed.
 Allocating page for process 5.
-Page 45 was randomly selected to be allocated.
-Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 4 was chosen to be replaced.
-Page allocated on frame 17.
+Page 36 was randomly selected to be allocated.
+Page allocated on frame 29.
 Allocation for process 5 completed.
 Allocating page for process 6.
-Page 1 was randomly selected to be allocated.
+Page 5 was randomly selected to be allocated.
 Page allocated on frame 30.
 Allocation for process 6 completed.
 Allocating page for process 7.
-Page 10 was randomly selected to be allocated.
+Page 31 was randomly selected to be allocated.
 Page allocated on frame 31.
 Allocation for process 7 completed.
 Allocating page for process 8.
-Page 47 was randomly selected to be allocated.
+Page 31 was randomly selected to be allocated.
 Page allocated on frame 32.
 Allocation for process 8 completed.
 Allocating page for process 9.
 New process is now running.
-Page 37 was randomly selected to be allocated.
+Page 1 was randomly selected to be allocated.
 Page allocated on frame 33.
 Allocation for process 9 completed.
 New process created! PID = 10.
@@ -319,60 +313,62 @@ New process created! PID = 10.
 Time = 33
 -------------------------
 Allocating page for process 0.
-Page 15 was randomly selected to be allocated.
+Page 30 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 29 was chosen to be replaced.
+LRU completed!. Page 1 was chosen to be replaced.
 Page allocated on frame 3.
 Allocation for process 0 completed.
 Allocating page for process 1.
-Page 24 was randomly selected to be allocated.
+Page 6 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 2 was chosen to be replaced.
+LRU completed!. Page 43 was chosen to be replaced.
 Page allocated on frame 4.
 Allocation for process 1 completed.
 Allocating page for process 2.
-Page 15 was randomly selected to be allocated.
+Page 20 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 36 was chosen to be replaced.
-Page allocated on frame 5.
+LRU completed!. Page 46 was chosen to be replaced.
+Page allocated on frame 17.
 Allocation for process 2 completed.
 Allocating page for process 3.
-Page 31 was randomly selected to be allocated.
+Page 26 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 3 was chosen to be replaced.
+LRU completed!. Page 49 was chosen to be replaced.
 Page allocated on frame 18.
 Allocation for process 3 completed.
 Allocating page for process 4.
-Page 30 was randomly selected to be allocated.
-Page already allocated. Updating reference.
+Page 33 was randomly selected to be allocated.
+Working set limit restriction. Applying LRU algorithm.
+LRU completed!. Page 25 was chosen to be replaced.
+Page allocated on frame 19.
 Allocation for process 4 completed.
 Allocating page for process 5.
-Page 23 was randomly selected to be allocated.
+Page 31 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 26 was chosen to be replaced.
-Page allocated on frame 20.
+LRU completed!. Page 5 was chosen to be replaced.
+Page allocated on frame 16.
 Allocation for process 5 completed.
 Allocating page for process 6.
-Page 19 was randomly selected to be allocated.
+Page 41 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 13 was chosen to be replaced.
+LRU completed!. Page 44 was chosen to be replaced.
 Page allocated on frame 21.
 Allocation for process 6 completed.
 Allocating page for process 7.
-Page 19 was randomly selected to be allocated.
+Page 24 was randomly selected to be allocated.
 Page allocated on frame 34.
 Allocation for process 7 completed.
 Allocating page for process 8.
-Page 24 was randomly selected to be allocated.
+Page 5 was randomly selected to be allocated.
 Page allocated on frame 35.
 Allocation for process 8 completed.
 Allocating page for process 9.
-Page 34 was randomly selected to be allocated.
+Page 37 was randomly selected to be allocated.
 Page allocated on frame 36.
 Allocation for process 9 completed.
 Allocating page for process 10.
 New process is now running.
-Page 27 was randomly selected to be allocated.
+Page 8 was randomly selected to be allocated.
 Page allocated on frame 37.
 Allocation for process 10 completed.
 New process created! PID = 11.
@@ -380,66 +376,66 @@ New process created! PID = 11.
 Time = 36
 -------------------------
 Allocating page for process 0.
-Page 20 was randomly selected to be allocated.
-Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 4 was chosen to be replaced.
-Page allocated on frame 6.
-Allocation for process 0 completed.
-Allocating page for process 1.
 Page 27 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 6 was chosen to be replaced.
+LRU completed!. Page 25 was chosen to be replaced.
+Page allocated on frame 0.
+Allocation for process 0 completed.
+Allocating page for process 1.
+Page 29 was randomly selected to be allocated.
+Working set limit restriction. Applying LRU algorithm.
+LRU completed!. Page 8 was chosen to be replaced.
 Page allocated on frame 7.
 Allocation for process 1 completed.
 Allocating page for process 2.
-Page 22 was randomly selected to be allocated.
-Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 38 was chosen to be replaced.
-Page allocated on frame 8.
-Allocation for process 2 completed.
-Allocating page for process 3.
-Page 33 was randomly selected to be allocated.
-Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 39 was chosen to be replaced.
-Page allocated on frame 9.
-Allocation for process 3 completed.
-Allocating page for process 4.
-Page 7 was randomly selected to be allocated.
-Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 25 was chosen to be replaced.
-Page allocated on frame 19.
-Allocation for process 4 completed.
-Allocating page for process 5.
-Page 47 was randomly selected to be allocated.
+Page 32 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
 LRU completed!. Page 15 was chosen to be replaced.
+Page allocated on frame 5.
+Allocation for process 2 completed.
+Allocating page for process 3.
+Page 21 was randomly selected to be allocated.
+Page already allocated. Updating reference.
+Allocation for process 3 completed.
+Allocating page for process 4.
+Page 2 was randomly selected to be allocated.
+Working set limit restriction. Applying LRU algorithm.
+LRU completed!. Page 24 was chosen to be replaced.
+Page allocated on frame 22.
+Allocation for process 4 completed.
+Allocating page for process 5.
+Page 23 was randomly selected to be allocated.
+Working set limit restriction. Applying LRU algorithm.
+LRU completed!. Page 45 was chosen to be replaced.
 Page allocated on frame 23.
 Allocation for process 5 completed.
 Allocating page for process 6.
-Page 19 was randomly selected to be allocated.
-Page already allocated. Updating reference.
+Page 43 was randomly selected to be allocated.
+Working set limit restriction. Applying LRU algorithm.
+LRU completed!. Page 34 was chosen to be replaced.
+Page allocated on frame 24.
 Allocation for process 6 completed.
 Allocating page for process 7.
-Page 7 was randomly selected to be allocated.
+Page 8 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 44 was chosen to be replaced.
+LRU completed!. Page 20 was chosen to be replaced.
 Page allocated on frame 25.
 Allocation for process 7 completed.
 Allocating page for process 8.
-Page 15 was randomly selected to be allocated.
+Page 17 was randomly selected to be allocated.
 Page allocated on frame 38.
 Allocation for process 8 completed.
 Allocating page for process 9.
-Page 10 was randomly selected to be allocated.
+Page 44 was randomly selected to be allocated.
 Page allocated on frame 39.
 Allocation for process 9 completed.
 Allocating page for process 10.
-Page 41 was randomly selected to be allocated.
+Page 27 was randomly selected to be allocated.
 Page allocated on frame 40.
 Allocation for process 10 completed.
 Allocating page for process 11.
 New process is now running.
-Page 9 was randomly selected to be allocated.
+Page 5 was randomly selected to be allocated.
 Page allocated on frame 41.
 Allocation for process 11 completed.
 New process created! PID = 12.
@@ -447,74 +443,74 @@ New process created! PID = 12.
 Time = 39
 -------------------------
 Allocating page for process 0.
-Page 1 was randomly selected to be allocated.
+Page 43 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 42 was chosen to be replaced.
-Page allocated on frame 0.
+LRU completed!. Page 40 was chosen to be replaced.
+Page allocated on frame 6.
 Allocation for process 0 completed.
 Allocating page for process 1.
-Page 38 was randomly selected to be allocated.
+Page 25 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 45 was chosen to be replaced.
+LRU completed!. Page 24 was chosen to be replaced.
 Page allocated on frame 10.
 Allocation for process 1 completed.
 Allocating page for process 2.
-Page 40 was randomly selected to be allocated.
+Page 33 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 13 was chosen to be replaced.
+LRU completed!. Page 44 was chosen to be replaced.
 Page allocated on frame 11.
 Allocation for process 2 completed.
 Allocating page for process 3.
-Page 48 was randomly selected to be allocated.
+Page 29 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 28 was chosen to be replaced.
-Page allocated on frame 12.
+LRU completed!. Page 41 was chosen to be replaced.
+Page allocated on frame 9.
 Allocation for process 3 completed.
 Allocating page for process 4.
-Page 39 was randomly selected to be allocated.
+Page 31 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 0 was chosen to be replaced.
-Page allocated on frame 22.
+LRU completed!. Page 38 was chosen to be replaced.
+Page allocated on frame 13.
 Allocation for process 4 completed.
 Allocating page for process 5.
-Page 2 was randomly selected to be allocated.
+Page 16 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 34 was chosen to be replaced.
-Page allocated on frame 26.
+LRU completed!. Page 19 was chosen to be replaced.
+Page allocated on frame 20.
 Allocation for process 5 completed.
 Allocating page for process 6.
-Page 45 was randomly selected to be allocated.
+Page 12 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
 LRU completed!. Page 6 was chosen to be replaced.
-Page allocated on frame 24.
+Page allocated on frame 26.
 Allocation for process 6 completed.
 Allocating page for process 7.
-Page 28 was randomly selected to be allocated.
+Page 34 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 18 was chosen to be replaced.
-Page allocated on frame 28.
+LRU completed!. Page 44 was chosen to be replaced.
+Page allocated on frame 27.
 Allocation for process 7 completed.
 Allocating page for process 8.
-Page 17 was randomly selected to be allocated.
+Page 48 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 40 was chosen to be replaced.
-Page allocated on frame 29.
+LRU completed!. Page 1 was chosen to be replaced.
+Page allocated on frame 28.
 Allocation for process 8 completed.
 Allocating page for process 9.
-Page 19 was randomly selected to be allocated.
+Page 20 was randomly selected to be allocated.
 Page allocated on frame 42.
 Allocation for process 9 completed.
 Allocating page for process 10.
-Page 45 was randomly selected to be allocated.
+Page 7 was randomly selected to be allocated.
 Page allocated on frame 43.
 Allocation for process 10 completed.
 Allocating page for process 11.
-Page 48 was randomly selected to be allocated.
+Page 25 was randomly selected to be allocated.
 Page allocated on frame 44.
 Allocation for process 11 completed.
 Allocating page for process 12.
 New process is now running.
-Page 49 was randomly selected to be allocated.
+Page 3 was randomly selected to be allocated.
 Page allocated on frame 45.
 Allocation for process 12 completed.
 New process created! PID = 13.
@@ -522,63 +518,61 @@ New process created! PID = 13.
 Time = 42
 -------------------------
 Allocating page for process 0.
-Page 19 was randomly selected to be allocated.
+Page 38 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 32 was chosen to be replaced.
+LRU completed!. Page 17 was chosen to be replaced.
 Page allocated on frame 1.
 Allocation for process 0 completed.
 Allocating page for process 1.
-Page 20 was randomly selected to be allocated.
+Page 18 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 42 was chosen to be replaced.
+LRU completed!. Page 37 was chosen to be replaced.
 Page allocated on frame 2.
 Allocation for process 1 completed.
 Allocating page for process 2.
-Page 21 was randomly selected to be allocated.
+Page 27 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 41 was chosen to be replaced.
-Page allocated on frame 14.
+LRU completed!. Page 47 was chosen to be replaced.
+Page allocated on frame 8.
 Allocation for process 2 completed.
 Allocating page for process 3.
 Page 45 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 47 was chosen to be replaced.
-Page allocated on frame 15.
+LRU completed!. Page 48 was chosen to be replaced.
+Page allocated on frame 14.
 Allocation for process 3 completed.
 Allocating page for process 4.
-Page 4 was randomly selected to be allocated.
+Page 7 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 22 was chosen to be replaced.
-Page allocated on frame 13.
+LRU completed!. Page 28 was chosen to be replaced.
+Page allocated on frame 15.
 Allocation for process 4 completed.
 Allocating page for process 5.
-Page 0 was randomly selected to be allocated.
-Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 45 was chosen to be replaced.
-Page allocated on frame 17.
+Page 36 was randomly selected to be allocated.
+Page already allocated. Updating reference.
 Allocation for process 5 completed.
 Allocating page for process 6.
-Page 15 was randomly selected to be allocated.
+Page 22 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 0 was chosen to be replaced.
-Page allocated on frame 27.
+LRU completed!. Page 5 was chosen to be replaced.
+Page allocated on frame 30.
 Allocation for process 6 completed.
 Allocating page for process 7.
-Page 33 was randomly selected to be allocated.
+Page 38 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 10 was chosen to be replaced.
+LRU completed!. Page 31 was chosen to be replaced.
 Page allocated on frame 31.
 Allocation for process 7 completed.
 Allocating page for process 8.
-Page 23 was randomly selected to be allocated.
+Page 20 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 47 was chosen to be replaced.
+LRU completed!. Page 31 was chosen to be replaced.
 Page allocated on frame 32.
 Allocation for process 8 completed.
 Allocating page for process 9.
-Page 0 was randomly selected to be allocated.
+Page 46 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 37 was chosen to be replaced.
+LRU completed!. Page 1 was chosen to be replaced.
 Page allocated on frame 33.
 Allocation for process 9 completed.
 Allocating page for process 10.
@@ -586,11 +580,11 @@ Page 40 was randomly selected to be allocated.
 Page allocated on frame 46.
 Allocation for process 10 completed.
 Allocating page for process 11.
-Page 20 was randomly selected to be allocated.
+Page 43 was randomly selected to be allocated.
 Page allocated on frame 47.
 Allocation for process 11 completed.
 Allocating page for process 12.
-Page 19 was randomly selected to be allocated.
+Page 39 was randomly selected to be allocated.
 Page allocated on frame 48.
 Allocation for process 12 completed.
 Allocating page for process 13.
@@ -603,82 +597,86 @@ New process created! PID = 14.
 Time = 45
 -------------------------
 Allocating page for process 0.
-Page 37 was randomly selected to be allocated.
+Page 13 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 15 was chosen to be replaced.
+LRU completed!. Page 30 was chosen to be replaced.
 Page allocated on frame 3.
 Allocation for process 0 completed.
 Allocating page for process 1.
-Page 31 was randomly selected to be allocated.
+Page 33 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 24 was chosen to be replaced.
+LRU completed!. Page 6 was chosen to be replaced.
 Page allocated on frame 4.
 Allocation for process 1 completed.
 Allocating page for process 2.
-Page 41 was randomly selected to be allocated.
+Page 28 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 15 was chosen to be replaced.
-Page allocated on frame 5.
+LRU completed!. Page 20 was chosen to be replaced.
+Page allocated on frame 17.
 Allocation for process 2 completed.
 Allocating page for process 3.
-Page 48 was randomly selected to be allocated.
-Page already allocated. Updating reference.
+Page 18 was randomly selected to be allocated.
+Working set limit restriction. Applying LRU algorithm.
+LRU completed!. Page 26 was chosen to be replaced.
+Page allocated on frame 18.
 Allocation for process 3 completed.
 Allocating page for process 4.
-Page 35 was randomly selected to be allocated.
+Page 29 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 30 was chosen to be replaced.
-Page allocated on frame 16.
+LRU completed!. Page 33 was chosen to be replaced.
+Page allocated on frame 19.
 Allocation for process 4 completed.
 Allocating page for process 5.
-Page 31 was randomly selected to be allocated.
+Page 4 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 23 was chosen to be replaced.
-Page allocated on frame 20.
+LRU completed!. Page 31 was chosen to be replaced.
+Page allocated on frame 16.
 Allocation for process 5 completed.
 Allocating page for process 6.
-Page 38 was randomly selected to be allocated.
+Page 3 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 1 was chosen to be replaced.
-Page allocated on frame 30.
+LRU completed!. Page 41 was chosen to be replaced.
+Page allocated on frame 21.
 Allocation for process 6 completed.
 Allocating page for process 7.
-Page 33 was randomly selected to be allocated.
-Page already allocated. Updating reference.
-Allocation for process 7 completed.
-Allocating page for process 8.
-Page 21 was randomly selected to be allocated.
+Page 10 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
 LRU completed!. Page 24 was chosen to be replaced.
+Page allocated on frame 34.
+Allocation for process 7 completed.
+Allocating page for process 8.
+Page 37 was randomly selected to be allocated.
+Working set limit restriction. Applying LRU algorithm.
+LRU completed!. Page 5 was chosen to be replaced.
 Page allocated on frame 35.
 Allocation for process 8 completed.
 Allocating page for process 9.
-Page 42 was randomly selected to be allocated.
+Page 19 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 34 was chosen to be replaced.
+LRU completed!. Page 37 was chosen to be replaced.
 Page allocated on frame 36.
 Allocation for process 9 completed.
 Allocating page for process 10.
-Page 31 was randomly selected to be allocated.
+Page 23 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 27 was chosen to be replaced.
+LRU completed!. Page 8 was chosen to be replaced.
 Page allocated on frame 37.
 Allocation for process 10 completed.
 Allocating page for process 11.
-Page 1 was randomly selected to be allocated.
+Page 21 was randomly selected to be allocated.
 Page allocated on frame 50.
 Allocation for process 11 completed.
 Allocating page for process 12.
-Page 10 was randomly selected to be allocated.
+Page 17 was randomly selected to be allocated.
 Page allocated on frame 51.
 Allocation for process 12 completed.
 Allocating page for process 13.
-Page 2 was randomly selected to be allocated.
+Page 43 was randomly selected to be allocated.
 Page allocated on frame 52.
 Allocation for process 13 completed.
 Allocating page for process 14.
 New process is now running.
-Page 47 was randomly selected to be allocated.
+Page 30 was randomly selected to be allocated.
 Page allocated on frame 53.
 Allocation for process 14 completed.
 New process created! PID = 15.
@@ -686,92 +684,92 @@ New process created! PID = 15.
 Time = 48
 -------------------------
 Allocating page for process 0.
-Page 10 was randomly selected to be allocated.
-Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 20 was chosen to be replaced.
-Page allocated on frame 6.
-Allocation for process 0 completed.
-Allocating page for process 1.
-Page 2 was randomly selected to be allocated.
+Page 44 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
 LRU completed!. Page 27 was chosen to be replaced.
+Page allocated on frame 0.
+Allocation for process 0 completed.
+Allocating page for process 1.
+Page 47 was randomly selected to be allocated.
+Working set limit restriction. Applying LRU algorithm.
+LRU completed!. Page 29 was chosen to be replaced.
 Page allocated on frame 7.
 Allocation for process 1 completed.
 Allocating page for process 2.
-Page 16 was randomly selected to be allocated.
+Page 18 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 22 was chosen to be replaced.
-Page allocated on frame 8.
+LRU completed!. Page 32 was chosen to be replaced.
+Page allocated on frame 5.
 Allocation for process 2 completed.
 Allocating page for process 3.
-Page 30 was randomly selected to be allocated.
-Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 31 was chosen to be replaced.
-Page allocated on frame 18.
-Allocation for process 3 completed.
-Allocating page for process 4.
-Page 25 was randomly selected to be allocated.
-Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 7 was chosen to be replaced.
-Page allocated on frame 19.
-Allocation for process 4 completed.
-Allocating page for process 5.
 Page 13 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 47 was chosen to be replaced.
+LRU completed!. Page 21 was chosen to be replaced.
+Page allocated on frame 12.
+Allocation for process 3 completed.
+Allocating page for process 4.
+Page 26 was randomly selected to be allocated.
+Working set limit restriction. Applying LRU algorithm.
+LRU completed!. Page 2 was chosen to be replaced.
+Page allocated on frame 22.
+Allocation for process 4 completed.
+Allocating page for process 5.
+Page 15 was randomly selected to be allocated.
+Working set limit restriction. Applying LRU algorithm.
+LRU completed!. Page 23 was chosen to be replaced.
 Page allocated on frame 23.
 Allocation for process 5 completed.
 Allocating page for process 6.
-Page 37 was randomly selected to be allocated.
+Page 20 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 19 was chosen to be replaced.
-Page allocated on frame 21.
+LRU completed!. Page 43 was chosen to be replaced.
+Page allocated on frame 24.
 Allocation for process 6 completed.
 Allocating page for process 7.
-Page 25 was randomly selected to be allocated.
+Page 14 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 19 was chosen to be replaced.
-Page allocated on frame 34.
+LRU completed!. Page 8 was chosen to be replaced.
+Page allocated on frame 25.
 Allocation for process 7 completed.
 Allocating page for process 8.
-Page 28 was randomly selected to be allocated.
+Page 38 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 15 was chosen to be replaced.
+LRU completed!. Page 17 was chosen to be replaced.
 Page allocated on frame 38.
 Allocation for process 8 completed.
 Allocating page for process 9.
-Page 22 was randomly selected to be allocated.
+Page 9 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 10 was chosen to be replaced.
+LRU completed!. Page 44 was chosen to be replaced.
 Page allocated on frame 39.
 Allocation for process 9 completed.
 Allocating page for process 10.
-Page 0 was randomly selected to be allocated.
+Page 35 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 41 was chosen to be replaced.
+LRU completed!. Page 27 was chosen to be replaced.
 Page allocated on frame 40.
 Allocation for process 10 completed.
 Allocating page for process 11.
-Page 28 was randomly selected to be allocated.
+Page 34 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 9 was chosen to be replaced.
+LRU completed!. Page 5 was chosen to be replaced.
 Page allocated on frame 41.
 Allocation for process 11 completed.
 Allocating page for process 12.
-Page 15 was randomly selected to be allocated.
+Page 49 was randomly selected to be allocated.
 Page allocated on frame 54.
 Allocation for process 12 completed.
 Allocating page for process 13.
-Page 20 was randomly selected to be allocated.
+Page 30 was randomly selected to be allocated.
 Page allocated on frame 55.
 Allocation for process 13 completed.
 Allocating page for process 14.
-Page 49 was randomly selected to be allocated.
+Page 25 was randomly selected to be allocated.
 Page allocated on frame 56.
 Allocation for process 14 completed.
 Allocating page for process 15.
 New process is now running.
-Page 14 was randomly selected to be allocated.
+Page 0 was randomly selected to be allocated.
 Page allocated on frame 57.
 Allocation for process 15 completed.
 New process created! PID = 16.
@@ -779,96 +777,92 @@ New process created! PID = 16.
 Time = 51
 -------------------------
 Allocating page for process 0.
-Page 9 was randomly selected to be allocated.
-Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 1 was chosen to be replaced.
-Page allocated on frame 0.
+Page 43 was randomly selected to be allocated.
+Page already allocated. Updating reference.
 Allocation for process 0 completed.
 Allocating page for process 1.
-Page 31 was randomly selected to be allocated.
-Page already allocated. Updating reference.
+Page 10 was randomly selected to be allocated.
+Working set limit restriction. Applying LRU algorithm.
+LRU completed!. Page 25 was chosen to be replaced.
+Page allocated on frame 10.
 Allocation for process 1 completed.
 Allocating page for process 2.
-Page 7 was randomly selected to be allocated.
+Page 29 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 40 was chosen to be replaced.
+LRU completed!. Page 33 was chosen to be replaced.
 Page allocated on frame 11.
 Allocation for process 2 completed.
 Allocating page for process 3.
-Page 8 was randomly selected to be allocated.
-Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 33 was chosen to be replaced.
-Page allocated on frame 9.
+Page 13 was randomly selected to be allocated.
+Page already allocated. Updating reference.
 Allocation for process 3 completed.
 Allocating page for process 4.
-Page 18 was randomly selected to be allocated.
-Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 39 was chosen to be replaced.
-Page allocated on frame 22.
-Allocation for process 4 completed.
-Allocating page for process 5.
 Page 39 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 2 was chosen to be replaced.
-Page allocated on frame 26.
+LRU completed!. Page 31 was chosen to be replaced.
+Page allocated on frame 13.
+Allocation for process 4 completed.
+Allocating page for process 5.
+Page 35 was randomly selected to be allocated.
+Working set limit restriction. Applying LRU algorithm.
+LRU completed!. Page 16 was chosen to be replaced.
+Page allocated on frame 20.
 Allocation for process 5 completed.
 Allocating page for process 6.
-Page 48 was randomly selected to be allocated.
+Page 16 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 45 was chosen to be replaced.
-Page allocated on frame 24.
+LRU completed!. Page 12 was chosen to be replaced.
+Page allocated on frame 26.
 Allocation for process 6 completed.
 Allocating page for process 7.
-Page 1 was randomly selected to be allocated.
+Page 0 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 7 was chosen to be replaced.
-Page allocated on frame 25.
+LRU completed!. Page 34 was chosen to be replaced.
+Page allocated on frame 27.
 Allocation for process 7 completed.
 Allocating page for process 8.
-Page 12 was randomly selected to be allocated.
+Page 22 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 17 was chosen to be replaced.
-Page allocated on frame 29.
+LRU completed!. Page 48 was chosen to be replaced.
+Page allocated on frame 28.
 Allocation for process 8 completed.
 Allocating page for process 9.
-Page 41 was randomly selected to be allocated.
+Page 37 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 19 was chosen to be replaced.
+LRU completed!. Page 20 was chosen to be replaced.
 Page allocated on frame 42.
 Allocation for process 9 completed.
 Allocating page for process 10.
-Page 34 was randomly selected to be allocated.
-Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 45 was chosen to be replaced.
-Page allocated on frame 43.
+Page 23 was randomly selected to be allocated.
+Page already allocated. Updating reference.
 Allocation for process 10 completed.
 Allocating page for process 11.
-Page 15 was randomly selected to be allocated.
+Page 45 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 48 was chosen to be replaced.
+LRU completed!. Page 25 was chosen to be replaced.
 Page allocated on frame 44.
 Allocation for process 11 completed.
 Allocating page for process 12.
-Page 1 was randomly selected to be allocated.
+Page 5 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 49 was chosen to be replaced.
+LRU completed!. Page 3 was chosen to be replaced.
 Page allocated on frame 45.
 Allocation for process 12 completed.
 Allocating page for process 13.
-Page 37 was randomly selected to be allocated.
+Page 18 was randomly selected to be allocated.
 Page allocated on frame 58.
 Allocation for process 13 completed.
 Allocating page for process 14.
-Page 12 was randomly selected to be allocated.
+Page 26 was randomly selected to be allocated.
 Page allocated on frame 59.
 Allocation for process 14 completed.
 Allocating page for process 15.
-Page 13 was randomly selected to be allocated.
+Page 1 was randomly selected to be allocated.
 Page allocated on frame 60.
 Allocation for process 15 completed.
 Allocating page for process 16.
 New process is now running.
-Page 41 was randomly selected to be allocated.
+Page 15 was randomly selected to be allocated.
 Page allocated on frame 61.
 Allocation for process 16 completed.
 New process created! PID = 17.
@@ -876,101 +870,105 @@ New process created! PID = 17.
 Time = 54
 -------------------------
 Allocating page for process 0.
-Page 30 was randomly selected to be allocated.
+Page 46 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 19 was chosen to be replaced.
+LRU completed!. Page 38 was chosen to be replaced.
 Page allocated on frame 1.
 Allocation for process 0 completed.
 Allocating page for process 1.
-Page 44 was randomly selected to be allocated.
+Page 14 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 38 was chosen to be replaced.
-Page allocated on frame 10.
+LRU completed!. Page 18 was chosen to be replaced.
+Page allocated on frame 2.
 Allocation for process 1 completed.
 Allocating page for process 2.
-Page 16 was randomly selected to be allocated.
-Page already allocated. Updating reference.
-Allocation for process 2 completed.
-Allocating page for process 3.
-Page 43 was randomly selected to be allocated.
-Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 45 was chosen to be replaced.
-Page allocated on frame 15.
-Allocation for process 3 completed.
-Allocating page for process 4.
-Page 33 was randomly selected to be allocated.
-Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 4 was chosen to be replaced.
-Page allocated on frame 13.
-Allocation for process 4 completed.
-Allocating page for process 5.
-Page 43 was randomly selected to be allocated.
-Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 0 was chosen to be replaced.
-Page allocated on frame 17.
-Allocation for process 5 completed.
-Allocating page for process 6.
-Page 23 was randomly selected to be allocated.
-Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 15 was chosen to be replaced.
-Page allocated on frame 27.
-Allocation for process 6 completed.
-Allocating page for process 7.
-Page 5 was randomly selected to be allocated.
-Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 28 was chosen to be replaced.
-Page allocated on frame 28.
-Allocation for process 7 completed.
-Allocating page for process 8.
 Page 44 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 23 was chosen to be replaced.
+LRU completed!. Page 27 was chosen to be replaced.
+Page allocated on frame 8.
+Allocation for process 2 completed.
+Allocating page for process 3.
+Page 12 was randomly selected to be allocated.
+Working set limit restriction. Applying LRU algorithm.
+LRU completed!. Page 29 was chosen to be replaced.
+Page allocated on frame 9.
+Allocation for process 3 completed.
+Allocating page for process 4.
+Page 37 was randomly selected to be allocated.
+Working set limit restriction. Applying LRU algorithm.
+LRU completed!. Page 7 was chosen to be replaced.
+Page allocated on frame 15.
+Allocation for process 4 completed.
+Allocating page for process 5.
+Page 8 was randomly selected to be allocated.
+Working set limit restriction. Applying LRU algorithm.
+LRU completed!. Page 36 was chosen to be replaced.
+Page allocated on frame 29.
+Allocation for process 5 completed.
+Allocating page for process 6.
+Page 2 was randomly selected to be allocated.
+Working set limit restriction. Applying LRU algorithm.
+LRU completed!. Page 22 was chosen to be replaced.
+Page allocated on frame 30.
+Allocation for process 6 completed.
+Allocating page for process 7.
+Page 48 was randomly selected to be allocated.
+Working set limit restriction. Applying LRU algorithm.
+LRU completed!. Page 38 was chosen to be replaced.
+Page allocated on frame 31.
+Allocation for process 7 completed.
+Allocating page for process 8.
+Page 43 was randomly selected to be allocated.
+Working set limit restriction. Applying LRU algorithm.
+LRU completed!. Page 20 was chosen to be replaced.
 Page allocated on frame 32.
 Allocation for process 8 completed.
 Allocating page for process 9.
-Page 1 was randomly selected to be allocated.
+Page 38 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 0 was chosen to be replaced.
+LRU completed!. Page 46 was chosen to be replaced.
 Page allocated on frame 33.
 Allocation for process 9 completed.
 Allocating page for process 10.
-Page 20 was randomly selected to be allocated.
+Page 47 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 40 was chosen to be replaced.
-Page allocated on frame 46.
+LRU completed!. Page 7 was chosen to be replaced.
+Page allocated on frame 43.
 Allocation for process 10 completed.
 Allocating page for process 11.
-Page 16 was randomly selected to be allocated.
+Page 26 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 20 was chosen to be replaced.
+LRU completed!. Page 43 was chosen to be replaced.
 Page allocated on frame 47.
 Allocation for process 11 completed.
 Allocating page for process 12.
-Page 3 was randomly selected to be allocated.
+Page 13 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 19 was chosen to be replaced.
+LRU completed!. Page 39 was chosen to be replaced.
 Page allocated on frame 48.
 Allocation for process 12 completed.
 Allocating page for process 13.
-Page 37 was randomly selected to be allocated.
-Page already allocated. Updating reference.
+Page 0 was randomly selected to be allocated.
+Working set limit restriction. Applying LRU algorithm.
+LRU completed!. Page 49 was chosen to be replaced.
+Page allocated on frame 49.
 Allocation for process 13 completed.
 Allocating page for process 14.
-Page 28 was randomly selected to be allocated.
+Page 19 was randomly selected to be allocated.
 Page allocated on frame 62.
 Allocation for process 14 completed.
 Allocating page for process 15.
-Page 36 was randomly selected to be allocated.
+Page 23 was randomly selected to be allocated.
 Page allocated on frame 63.
 Allocation for process 15 completed.
 Allocating page for process 16.
-Page 44 was randomly selected to be allocated.
+Page 29 was randomly selected to be allocated.
 Process 0 has left memory beacuse it was the oldest one running.
 Page allocated on frame 0.
 Allocation for process 16 completed.
 Allocating page for process 17.
 New process is now running.
-Page 36 was randomly selected to be allocated.
+Page 33 was randomly selected to be allocated.
 Page allocated on frame 1.
 Allocation for process 17 completed.
 New process created! PID = 18.
@@ -981,101 +979,105 @@ Allocating page for process 0.
 Process is blocked and there are still new processes to be allocated. Skipping.
 Allocation for process 0 completed.
 Allocating page for process 1.
-Page 4 was randomly selected to be allocated.
-Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 20 was chosen to be replaced.
-Page allocated on frame 2.
-Allocation for process 1 completed.
-Allocating page for process 2.
-Page 35 was randomly selected to be allocated.
-Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 21 was chosen to be replaced.
-Page allocated on frame 14.
-Allocation for process 2 completed.
-Allocating page for process 3.
-Page 34 was randomly selected to be allocated.
-Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 48 was chosen to be replaced.
-Page allocated on frame 12.
-Allocation for process 3 completed.
-Allocating page for process 4.
-Page 7 was randomly selected to be allocated.
-Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 35 was chosen to be replaced.
-Page allocated on frame 16.
-Allocation for process 4 completed.
-Allocating page for process 5.
-Page 49 was randomly selected to be allocated.
-Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 31 was chosen to be replaced.
-Page allocated on frame 20.
-Allocation for process 5 completed.
-Allocating page for process 6.
-Page 25 was randomly selected to be allocated.
-Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 38 was chosen to be replaced.
-Page allocated on frame 30.
-Allocation for process 6 completed.
-Allocating page for process 7.
-Page 42 was randomly selected to be allocated.
+Page 13 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
 LRU completed!. Page 33 was chosen to be replaced.
-Page allocated on frame 31.
+Page allocated on frame 4.
+Allocation for process 1 completed.
+Allocating page for process 2.
+Page 16 was randomly selected to be allocated.
+Working set limit restriction. Applying LRU algorithm.
+LRU completed!. Page 28 was chosen to be replaced.
+Page allocated on frame 17.
+Allocation for process 2 completed.
+Allocating page for process 3.
+Page 1 was randomly selected to be allocated.
+Working set limit restriction. Applying LRU algorithm.
+LRU completed!. Page 45 was chosen to be replaced.
+Page allocated on frame 14.
+Allocation for process 3 completed.
+Allocating page for process 4.
+Page 13 was randomly selected to be allocated.
+Working set limit restriction. Applying LRU algorithm.
+LRU completed!. Page 29 was chosen to be replaced.
+Page allocated on frame 19.
+Allocation for process 4 completed.
+Allocating page for process 5.
+Page 38 was randomly selected to be allocated.
+Working set limit restriction. Applying LRU algorithm.
+LRU completed!. Page 4 was chosen to be replaced.
+Page allocated on frame 16.
+Allocation for process 5 completed.
+Allocating page for process 6.
+Page 39 was randomly selected to be allocated.
+Working set limit restriction. Applying LRU algorithm.
+LRU completed!. Page 3 was chosen to be replaced.
+Page allocated on frame 21.
+Allocation for process 6 completed.
+Allocating page for process 7.
+Page 38 was randomly selected to be allocated.
+Working set limit restriction. Applying LRU algorithm.
+LRU completed!. Page 10 was chosen to be replaced.
+Page allocated on frame 34.
 Allocation for process 7 completed.
 Allocating page for process 8.
-Page 15 was randomly selected to be allocated.
+Page 35 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 21 was chosen to be replaced.
+LRU completed!. Page 37 was chosen to be replaced.
 Page allocated on frame 35.
 Allocation for process 8 completed.
 Allocating page for process 9.
-Page 28 was randomly selected to be allocated.
+Page 46 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 42 was chosen to be replaced.
+LRU completed!. Page 19 was chosen to be replaced.
 Page allocated on frame 36.
 Allocation for process 9 completed.
 Allocating page for process 10.
-Page 29 was randomly selected to be allocated.
+Page 6 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 31 was chosen to be replaced.
-Page allocated on frame 37.
+LRU completed!. Page 40 was chosen to be replaced.
+Page allocated on frame 46.
 Allocation for process 10 completed.
 Allocating page for process 11.
-Page 29 was randomly selected to be allocated.
+Page 13 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 1 was chosen to be replaced.
+LRU completed!. Page 21 was chosen to be replaced.
 Page allocated on frame 50.
 Allocation for process 11 completed.
 Allocating page for process 12.
-Page 42 was randomly selected to be allocated.
+Page 47 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 10 was chosen to be replaced.
+LRU completed!. Page 17 was chosen to be replaced.
 Page allocated on frame 51.
 Allocation for process 12 completed.
 Allocating page for process 13.
-Page 20 was randomly selected to be allocated.
-Page already allocated. Updating reference.
+Page 24 was randomly selected to be allocated.
+Working set limit restriction. Applying LRU algorithm.
+LRU completed!. Page 43 was chosen to be replaced.
+Page allocated on frame 52.
 Allocation for process 13 completed.
 Allocating page for process 14.
-Page 12 was randomly selected to be allocated.
-Page already allocated. Updating reference.
+Page 10 was randomly selected to be allocated.
+Working set limit restriction. Applying LRU algorithm.
+LRU completed!. Page 30 was chosen to be replaced.
+Page allocated on frame 53.
 Allocation for process 14 completed.
 Allocating page for process 15.
-Page 38 was randomly selected to be allocated.
+Page 14 was randomly selected to be allocated.
 Page allocated on frame 3.
 Allocation for process 15 completed.
 Allocating page for process 16.
-Page 38 was randomly selected to be allocated.
+Page 18 was randomly selected to be allocated.
 Page allocated on frame 6.
 Allocation for process 16 completed.
 Allocating page for process 17.
-Page 7 was randomly selected to be allocated.
+Page 24 was randomly selected to be allocated.
 Process 1 has left memory beacuse it was the oldest one running.
 Page allocated on frame 2.
 Allocation for process 17 completed.
 Allocating page for process 18.
 New process is now running.
-Page 21 was randomly selected to be allocated.
+Page 1 was randomly selected to be allocated.
 Page allocated on frame 4.
 Allocation for process 18 completed.
 New process created! PID = 19.
@@ -1089,103 +1091,101 @@ Allocating page for process 1.
 Process is blocked and there are still new processes to be allocated. Skipping.
 Allocation for process 1 completed.
 Allocating page for process 2.
-Page 33 was randomly selected to be allocated.
+Page 26 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 41 was chosen to be replaced.
+LRU completed!. Page 18 was chosen to be replaced.
 Page allocated on frame 5.
 Allocation for process 2 completed.
 Allocating page for process 3.
-Page 33 was randomly selected to be allocated.
+Page 28 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 30 was chosen to be replaced.
+LRU completed!. Page 18 was chosen to be replaced.
 Page allocated on frame 18.
 Allocation for process 3 completed.
 Allocating page for process 4.
-Page 28 was randomly selected to be allocated.
+Page 49 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 25 was chosen to be replaced.
-Page allocated on frame 19.
+LRU completed!. Page 26 was chosen to be replaced.
+Page allocated on frame 22.
 Allocation for process 4 completed.
 Allocating page for process 5.
-Page 29 was randomly selected to be allocated.
+Page 22 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 13 was chosen to be replaced.
+LRU completed!. Page 15 was chosen to be replaced.
 Page allocated on frame 23.
 Allocation for process 5 completed.
 Allocating page for process 6.
-Page 36 was randomly selected to be allocated.
-Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 37 was chosen to be replaced.
-Page allocated on frame 21.
+Page 16 was randomly selected to be allocated.
+Page already allocated. Updating reference.
 Allocation for process 6 completed.
 Allocating page for process 7.
-Page 49 was randomly selected to be allocated.
-Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 25 was chosen to be replaced.
-Page allocated on frame 34.
+Page 48 was randomly selected to be allocated.
+Page already allocated. Updating reference.
 Allocation for process 7 completed.
 Allocating page for process 8.
-Page 46 was randomly selected to be allocated.
+Page 48 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 28 was chosen to be replaced.
+LRU completed!. Page 38 was chosen to be replaced.
 Page allocated on frame 38.
 Allocation for process 8 completed.
 Allocating page for process 9.
-Page 39 was randomly selected to be allocated.
+Page 29 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 22 was chosen to be replaced.
+LRU completed!. Page 9 was chosen to be replaced.
 Page allocated on frame 39.
 Allocation for process 9 completed.
 Allocating page for process 10.
-Page 36 was randomly selected to be allocated.
+Page 0 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 0 was chosen to be replaced.
+LRU completed!. Page 35 was chosen to be replaced.
 Page allocated on frame 40.
 Allocation for process 10 completed.
 Allocating page for process 11.
-Page 24 was randomly selected to be allocated.
+Page 19 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 28 was chosen to be replaced.
+LRU completed!. Page 34 was chosen to be replaced.
 Page allocated on frame 41.
 Allocation for process 11 completed.
 Allocating page for process 12.
-Page 25 was randomly selected to be allocated.
+Page 2 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 15 was chosen to be replaced.
+LRU completed!. Page 49 was chosen to be replaced.
 Page allocated on frame 54.
 Allocation for process 12 completed.
 Allocating page for process 13.
-Page 32 was randomly selected to be allocated.
+Page 31 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 49 was chosen to be replaced.
-Page allocated on frame 49.
+LRU completed!. Page 30 was chosen to be replaced.
+Page allocated on frame 55.
 Allocation for process 13 completed.
 Allocating page for process 14.
-Page 12 was randomly selected to be allocated.
-Page already allocated. Updating reference.
+Page 2 was randomly selected to be allocated.
+Working set limit restriction. Applying LRU algorithm.
+LRU completed!. Page 25 was chosen to be replaced.
+Page allocated on frame 56.
 Allocation for process 14 completed.
 Allocating page for process 15.
-Page 29 was randomly selected to be allocated.
+Page 17 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 14 was chosen to be replaced.
+LRU completed!. Page 0 was chosen to be replaced.
 Page allocated on frame 57.
 Allocation for process 15 completed.
 Allocating page for process 16.
-Page 20 was randomly selected to be allocated.
+Page 47 was randomly selected to be allocated.
 Page allocated on frame 7.
 Allocation for process 16 completed.
 Allocating page for process 17.
-Page 46 was randomly selected to be allocated.
+Page 6 was randomly selected to be allocated.
 Page allocated on frame 10.
 Allocation for process 17 completed.
 Allocating page for process 18.
-Page 39 was randomly selected to be allocated.
+Page 32 was randomly selected to be allocated.
 Process 2 has left memory beacuse it was the oldest one running.
 Page allocated on frame 5.
 Allocation for process 18 completed.
 Allocating page for process 19.
 New process is now running.
-Page 19 was randomly selected to be allocated.
+Page 37 was randomly selected to be allocated.
 Page allocated on frame 8.
 Allocation for process 19 completed.
 -------------------------
@@ -1201,97 +1201,99 @@ Allocating page for process 2.
 Process is blocked and there are still empty frames available. Skipping.
 Allocation for process 2 completed.
 Allocating page for process 3.
-Page 24 was randomly selected to be allocated.
+Page 45 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 8 was chosen to be replaced.
-Page allocated on frame 9.
+LRU completed!. Page 13 was chosen to be replaced.
+Page allocated on frame 12.
 Allocation for process 3 completed.
 Allocating page for process 4.
-Page 31 was randomly selected to be allocated.
-Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 18 was chosen to be replaced.
-Page allocated on frame 22.
-Allocation for process 4 completed.
-Allocating page for process 5.
-Page 36 was randomly selected to be allocated.
+Page 20 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
 LRU completed!. Page 39 was chosen to be replaced.
-Page allocated on frame 26.
+Page allocated on frame 13.
+Allocation for process 4 completed.
+Allocating page for process 5.
+Page 23 was randomly selected to be allocated.
+Working set limit restriction. Applying LRU algorithm.
+LRU completed!. Page 35 was chosen to be replaced.
+Page allocated on frame 20.
 Allocation for process 5 completed.
 Allocating page for process 6.
-Page 2 was randomly selected to be allocated.
+Page 43 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 48 was chosen to be replaced.
+LRU completed!. Page 20 was chosen to be replaced.
 Page allocated on frame 24.
 Allocation for process 6 completed.
 Allocating page for process 7.
-Page 12 was randomly selected to be allocated.
+Page 29 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 1 was chosen to be replaced.
+LRU completed!. Page 14 was chosen to be replaced.
 Page allocated on frame 25.
 Allocation for process 7 completed.
 Allocating page for process 8.
-Page 18 was randomly selected to be allocated.
+Page 36 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 12 was chosen to be replaced.
-Page allocated on frame 29.
+LRU completed!. Page 22 was chosen to be replaced.
+Page allocated on frame 28.
 Allocation for process 8 completed.
 Allocating page for process 9.
-Page 46 was randomly selected to be allocated.
+Page 42 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 41 was chosen to be replaced.
+LRU completed!. Page 37 was chosen to be replaced.
 Page allocated on frame 42.
 Allocation for process 9 completed.
 Allocating page for process 10.
-Page 34 was randomly selected to be allocated.
-Page already allocated. Updating reference.
+Page 3 was randomly selected to be allocated.
+Working set limit restriction. Applying LRU algorithm.
+LRU completed!. Page 23 was chosen to be replaced.
+Page allocated on frame 37.
 Allocation for process 10 completed.
 Allocating page for process 11.
-Page 32 was randomly selected to be allocated.
+Page 48 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 15 was chosen to be replaced.
+LRU completed!. Page 45 was chosen to be replaced.
 Page allocated on frame 44.
 Allocation for process 11 completed.
 Allocating page for process 12.
-Page 36 was randomly selected to be allocated.
+Page 6 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 1 was chosen to be replaced.
+LRU completed!. Page 5 was chosen to be replaced.
 Page allocated on frame 45.
 Allocation for process 12 completed.
 Allocating page for process 13.
-Page 22 was randomly selected to be allocated.
+Page 23 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 2 was chosen to be replaced.
-Page allocated on frame 52.
+LRU completed!. Page 18 was chosen to be replaced.
+Page allocated on frame 58.
 Allocation for process 13 completed.
 Allocating page for process 14.
-Page 41 was randomly selected to be allocated.
+Page 22 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 47 was chosen to be replaced.
-Page allocated on frame 53.
+LRU completed!. Page 26 was chosen to be replaced.
+Page allocated on frame 59.
 Allocation for process 14 completed.
 Allocating page for process 15.
 Page 9 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 13 was chosen to be replaced.
+LRU completed!. Page 1 was chosen to be replaced.
 Page allocated on frame 60.
 Allocation for process 15 completed.
 Allocating page for process 16.
-Page 7 was randomly selected to be allocated.
+Page 1 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 41 was chosen to be replaced.
+LRU completed!. Page 15 was chosen to be replaced.
 Page allocated on frame 61.
 Allocation for process 16 completed.
 Allocating page for process 17.
-Page 24 was randomly selected to be allocated.
+Page 0 was randomly selected to be allocated.
 Page allocated on frame 11.
 Allocation for process 17 completed.
 Allocating page for process 18.
-Page 38 was randomly selected to be allocated.
-Page allocated on frame 14.
+Page 10 was randomly selected to be allocated.
+Page allocated on frame 17.
 Allocation for process 18 completed.
 Allocating page for process 19.
-Page 37 was randomly selected to be allocated.
+Page 23 was randomly selected to be allocated.
 Process 3 has left memory beacuse it was the oldest one running.
 Page allocated on frame 9.
 Allocation for process 19 completed.
@@ -1311,96 +1313,94 @@ Allocating page for process 3.
 Process is blocked and there are still empty frames available. Skipping.
 Allocation for process 3 completed.
 Allocating page for process 4.
-Page 11 was randomly selected to be allocated.
+Page 16 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 33 was chosen to be replaced.
-Page allocated on frame 13.
+LRU completed!. Page 37 was chosen to be replaced.
+Page allocated on frame 15.
 Allocation for process 4 completed.
 Allocating page for process 5.
-Page 37 was randomly selected to be allocated.
+Page 11 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 43 was chosen to be replaced.
-Page allocated on frame 17.
+LRU completed!. Page 8 was chosen to be replaced.
+Page allocated on frame 29.
 Allocation for process 5 completed.
 Allocating page for process 6.
-Page 35 was randomly selected to be allocated.
+Page 23 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 23 was chosen to be replaced.
-Page allocated on frame 27.
+LRU completed!. Page 2 was chosen to be replaced.
+Page allocated on frame 30.
 Allocation for process 6 completed.
 Allocating page for process 7.
-Page 0 was randomly selected to be allocated.
+Page 47 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 5 was chosen to be replaced.
-Page allocated on frame 28.
+LRU completed!. Page 0 was chosen to be replaced.
+Page allocated on frame 27.
 Allocation for process 7 completed.
 Allocating page for process 8.
-Page 25 was randomly selected to be allocated.
+Page 11 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 44 was chosen to be replaced.
+LRU completed!. Page 43 was chosen to be replaced.
 Page allocated on frame 32.
 Allocation for process 8 completed.
 Allocating page for process 9.
-Page 9 was randomly selected to be allocated.
+Page 43 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 1 was chosen to be replaced.
+LRU completed!. Page 38 was chosen to be replaced.
 Page allocated on frame 33.
 Allocation for process 9 completed.
 Allocating page for process 10.
-Page 28 was randomly selected to be allocated.
+Page 2 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 20 was chosen to be replaced.
-Page allocated on frame 46.
+LRU completed!. Page 47 was chosen to be replaced.
+Page allocated on frame 43.
 Allocation for process 10 completed.
 Allocating page for process 11.
-Page 7 was randomly selected to be allocated.
+Page 43 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 16 was chosen to be replaced.
+LRU completed!. Page 26 was chosen to be replaced.
 Page allocated on frame 47.
 Allocation for process 11 completed.
 Allocating page for process 12.
-Page 23 was randomly selected to be allocated.
-Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 3 was chosen to be replaced.
-Page allocated on frame 48.
+Page 47 was randomly selected to be allocated.
+Page already allocated. Updating reference.
 Allocation for process 12 completed.
 Allocating page for process 13.
-Page 7 was randomly selected to be allocated.
+Page 19 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 37 was chosen to be replaced.
-Page allocated on frame 58.
+LRU completed!. Page 0 was chosen to be replaced.
+Page allocated on frame 49.
 Allocation for process 13 completed.
 Allocating page for process 14.
-Page 27 was randomly selected to be allocated.
+Page 40 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 49 was chosen to be replaced.
-Page allocated on frame 56.
+LRU completed!. Page 19 was chosen to be replaced.
+Page allocated on frame 62.
 Allocation for process 14 completed.
 Allocating page for process 15.
-Page 21 was randomly selected to be allocated.
+Page 3 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 36 was chosen to be replaced.
+LRU completed!. Page 23 was chosen to be replaced.
 Page allocated on frame 63.
 Allocation for process 15 completed.
 Allocating page for process 16.
-Page 48 was randomly selected to be allocated.
+Page 4 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 44 was chosen to be replaced.
+LRU completed!. Page 29 was chosen to be replaced.
 Page allocated on frame 0.
 Allocation for process 16 completed.
 Allocating page for process 17.
-Page 49 was randomly selected to be allocated.
+Page 28 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 36 was chosen to be replaced.
+LRU completed!. Page 33 was chosen to be replaced.
 Page allocated on frame 1.
 Allocation for process 17 completed.
 Allocating page for process 18.
-Page 45 was randomly selected to be allocated.
+Page 0 was randomly selected to be allocated.
 Page allocated on frame 12.
 Allocation for process 18 completed.
 Allocating page for process 19.
-Page 29 was randomly selected to be allocated.
-Page allocated on frame 15.
+Page 24 was randomly selected to be allocated.
+Page allocated on frame 14.
 Allocation for process 19 completed.
 -------------------------
 Time = 69
@@ -1418,95 +1418,95 @@ Allocating page for process 3.
 Process is blocked and there are still empty frames available. Skipping.
 Allocation for process 3 completed.
 Allocating page for process 4.
-Page 37 was randomly selected to be allocated.
+Page 1 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 7 was chosen to be replaced.
-Page allocated on frame 16.
+LRU completed!. Page 13 was chosen to be replaced.
+Page allocated on frame 19.
 Allocation for process 4 completed.
 Allocating page for process 5.
-Page 0 was randomly selected to be allocated.
+Page 43 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 49 was chosen to be replaced.
-Page allocated on frame 20.
+LRU completed!. Page 38 was chosen to be replaced.
+Page allocated on frame 16.
 Allocation for process 5 completed.
 Allocating page for process 6.
-Page 41 was randomly selected to be allocated.
+Page 3 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 25 was chosen to be replaced.
-Page allocated on frame 30.
+LRU completed!. Page 39 was chosen to be replaced.
+Page allocated on frame 21.
 Allocation for process 6 completed.
 Allocating page for process 7.
-Page 7 was randomly selected to be allocated.
+Page 39 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 42 was chosen to be replaced.
-Page allocated on frame 31.
+LRU completed!. Page 38 was chosen to be replaced.
+Page allocated on frame 34.
 Allocation for process 7 completed.
 Allocating page for process 8.
-Page 48 was randomly selected to be allocated.
-Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 15 was chosen to be replaced.
-Page allocated on frame 35.
+Page 36 was randomly selected to be allocated.
+Page already allocated. Updating reference.
 Allocation for process 8 completed.
 Allocating page for process 9.
-Page 27 was randomly selected to be allocated.
+Page 8 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 28 was chosen to be replaced.
+LRU completed!. Page 46 was chosen to be replaced.
 Page allocated on frame 36.
 Allocation for process 9 completed.
 Allocating page for process 10.
-Page 39 was randomly selected to be allocated.
+Page 38 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 29 was chosen to be replaced.
-Page allocated on frame 37.
+LRU completed!. Page 6 was chosen to be replaced.
+Page allocated on frame 46.
 Allocation for process 10 completed.
 Allocating page for process 11.
-Page 35 was randomly selected to be allocated.
+Page 44 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 29 was chosen to be replaced.
+LRU completed!. Page 13 was chosen to be replaced.
 Page allocated on frame 50.
 Allocation for process 11 completed.
 Allocating page for process 12.
-Page 1 was randomly selected to be allocated.
-Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 42 was chosen to be replaced.
-Page allocated on frame 51.
-Allocation for process 12 completed.
-Allocating page for process 13.
 Page 31 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 20 was chosen to be replaced.
-Page allocated on frame 55.
+LRU completed!. Page 13 was chosen to be replaced.
+Page allocated on frame 48.
+Allocation for process 12 completed.
+Allocating page for process 13.
+Page 10 was randomly selected to be allocated.
+Working set limit restriction. Applying LRU algorithm.
+LRU completed!. Page 24 was chosen to be replaced.
+Page allocated on frame 52.
 Allocation for process 13 completed.
 Allocating page for process 14.
-Page 44 was randomly selected to be allocated.
+Page 4 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 28 was chosen to be replaced.
-Page allocated on frame 62.
+LRU completed!. Page 10 was chosen to be replaced.
+Page allocated on frame 53.
 Allocation for process 14 completed.
 Allocating page for process 15.
-Page 9 was randomly selected to be allocated.
-Page already allocated. Updating reference.
+Page 33 was randomly selected to be allocated.
+Working set limit restriction. Applying LRU algorithm.
+LRU completed!. Page 14 was chosen to be replaced.
+Page allocated on frame 3.
 Allocation for process 15 completed.
 Allocating page for process 16.
-Page 5 was randomly selected to be allocated.
+Page 13 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 38 was chosen to be replaced.
+LRU completed!. Page 18 was chosen to be replaced.
 Page allocated on frame 6.
 Allocation for process 16 completed.
 Allocating page for process 17.
-Page 32 was randomly selected to be allocated.
+Page 14 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 7 was chosen to be replaced.
+LRU completed!. Page 24 was chosen to be replaced.
 Page allocated on frame 2.
 Allocation for process 17 completed.
 Allocating page for process 18.
-Page 46 was randomly selected to be allocated.
+Page 8 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 21 was chosen to be replaced.
+LRU completed!. Page 1 was chosen to be replaced.
 Page allocated on frame 4.
 Allocation for process 18 completed.
 Allocating page for process 19.
-Page 18 was randomly selected to be allocated.
+Page 31 was randomly selected to be allocated.
 Page allocated on frame 18.
 Allocation for process 19 completed.
 -------------------------
@@ -1515,7 +1515,7 @@ Time = 72
 Allocating page for process 0.
 Process 4 has left memory beacuse it was the oldest one running.
 Blocked process returned to memory.
-Page 21 was randomly selected to be allocated.
+Page 27 was randomly selected to be allocated.
 Page allocated on frame 13.
 Allocation for process 0 completed.
 Allocating page for process 1.
@@ -1531,101 +1531,99 @@ Allocating page for process 4.
 Process is blocked and there are still empty frames available. Skipping.
 Allocation for process 4 completed.
 Allocating page for process 5.
-Page 31 was randomly selected to be allocated.
+Page 32 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 29 was chosen to be replaced.
+LRU completed!. Page 22 was chosen to be replaced.
 Page allocated on frame 23.
 Allocation for process 5 completed.
 Allocating page for process 6.
-Page 19 was randomly selected to be allocated.
+Page 29 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 36 was chosen to be replaced.
-Page allocated on frame 21.
+LRU completed!. Page 16 was chosen to be replaced.
+Page allocated on frame 26.
 Allocation for process 6 completed.
 Allocating page for process 7.
-Page 48 was randomly selected to be allocated.
-Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 49 was chosen to be replaced.
-Page allocated on frame 34.
+Page 39 was randomly selected to be allocated.
+Page already allocated. Updating reference.
 Allocation for process 7 completed.
 Allocating page for process 8.
-Page 42 was randomly selected to be allocated.
+Page 27 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 46 was chosen to be replaced.
-Page allocated on frame 38.
+LRU completed!. Page 35 was chosen to be replaced.
+Page allocated on frame 35.
 Allocation for process 8 completed.
 Allocating page for process 9.
-Page 47 was randomly selected to be allocated.
+Page 33 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 39 was chosen to be replaced.
+LRU completed!. Page 29 was chosen to be replaced.
 Page allocated on frame 39.
 Allocation for process 9 completed.
 Allocating page for process 10.
-Page 6 was randomly selected to be allocated.
+Page 32 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 36 was chosen to be replaced.
+LRU completed!. Page 0 was chosen to be replaced.
 Page allocated on frame 40.
 Allocation for process 10 completed.
 Allocating page for process 11.
-Page 17 was randomly selected to be allocated.
-Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 24 was chosen to be replaced.
-Page allocated on frame 41.
-Allocation for process 11 completed.
-Allocating page for process 12.
-Page 6 was randomly selected to be allocated.
-Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 25 was chosen to be replaced.
-Page allocated on frame 54.
-Allocation for process 12 completed.
-Allocating page for process 13.
-Page 35 was randomly selected to be allocated.
-Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 32 was chosen to be replaced.
-Page allocated on frame 49.
-Allocation for process 13 completed.
-Allocating page for process 14.
-Page 38 was randomly selected to be allocated.
-Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 12 was chosen to be replaced.
-Page allocated on frame 59.
-Allocation for process 14 completed.
-Allocating page for process 15.
-Page 5 was randomly selected to be allocated.
-Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 38 was chosen to be replaced.
-Page allocated on frame 3.
-Allocation for process 15 completed.
-Allocating page for process 16.
-Page 36 was randomly selected to be allocated.
-Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 20 was chosen to be replaced.
-Page allocated on frame 7.
-Allocation for process 16 completed.
-Allocating page for process 17.
-Page 34 was randomly selected to be allocated.
-Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 46 was chosen to be replaced.
-Page allocated on frame 10.
-Allocation for process 17 completed.
-Allocating page for process 18.
-Page 36 was randomly selected to be allocated.
-Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 39 was chosen to be replaced.
-Page allocated on frame 5.
-Allocation for process 18 completed.
-Allocating page for process 19.
 Page 24 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
 LRU completed!. Page 19 was chosen to be replaced.
+Page allocated on frame 41.
+Allocation for process 11 completed.
+Allocating page for process 12.
+Page 4 was randomly selected to be allocated.
+Working set limit restriction. Applying LRU algorithm.
+LRU completed!. Page 2 was chosen to be replaced.
+Page allocated on frame 54.
+Allocation for process 12 completed.
+Allocating page for process 13.
+Page 24 was randomly selected to be allocated.
+Working set limit restriction. Applying LRU algorithm.
+LRU completed!. Page 31 was chosen to be replaced.
+Page allocated on frame 55.
+Allocation for process 13 completed.
+Allocating page for process 14.
+Page 28 was randomly selected to be allocated.
+Working set limit restriction. Applying LRU algorithm.
+LRU completed!. Page 2 was chosen to be replaced.
+Page allocated on frame 56.
+Allocation for process 14 completed.
+Allocating page for process 15.
+Page 8 was randomly selected to be allocated.
+Working set limit restriction. Applying LRU algorithm.
+LRU completed!. Page 17 was chosen to be replaced.
+Page allocated on frame 57.
+Allocation for process 15 completed.
+Allocating page for process 16.
+Page 2 was randomly selected to be allocated.
+Working set limit restriction. Applying LRU algorithm.
+LRU completed!. Page 47 was chosen to be replaced.
+Page allocated on frame 7.
+Allocation for process 16 completed.
+Allocating page for process 17.
+Page 30 was randomly selected to be allocated.
+Working set limit restriction. Applying LRU algorithm.
+LRU completed!. Page 6 was chosen to be replaced.
+Page allocated on frame 10.
+Allocation for process 17 completed.
+Allocating page for process 18.
+Page 33 was randomly selected to be allocated.
+Working set limit restriction. Applying LRU algorithm.
+LRU completed!. Page 32 was chosen to be replaced.
+Page allocated on frame 5.
+Allocation for process 18 completed.
+Allocating page for process 19.
+Page 5 was randomly selected to be allocated.
+Working set limit restriction. Applying LRU algorithm.
+LRU completed!. Page 37 was chosen to be replaced.
 Page allocated on frame 8.
 Allocation for process 19 completed.
 -------------------------
 Time = 75
 -------------------------
 Allocating page for process 0.
-Page 36 was randomly selected to be allocated.
-Page allocated on frame 16.
+Page 24 was randomly selected to be allocated.
+Page allocated on frame 15.
 Allocation for process 0 completed.
 Allocating page for process 1.
 Process is blocked and there are still empty frames available. Skipping.
@@ -1640,100 +1638,100 @@ Allocating page for process 4.
 Process is blocked and there are still empty frames available. Skipping.
 Allocation for process 4 completed.
 Allocating page for process 5.
-Page 30 was randomly selected to be allocated.
+Page 38 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 36 was chosen to be replaced.
-Page allocated on frame 26.
+LRU completed!. Page 23 was chosen to be replaced.
+Page allocated on frame 20.
 Allocation for process 5 completed.
 Allocating page for process 6.
-Page 33 was randomly selected to be allocated.
+Page 45 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 2 was chosen to be replaced.
+LRU completed!. Page 43 was chosen to be replaced.
 Page allocated on frame 24.
 Allocation for process 6 completed.
 Allocating page for process 7.
-Page 34 was randomly selected to be allocated.
+Page 12 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 12 was chosen to be replaced.
-Page allocated on frame 25.
+LRU completed!. Page 48 was chosen to be replaced.
+Page allocated on frame 31.
 Allocation for process 7 completed.
 Allocating page for process 8.
-Page 7 was randomly selected to be allocated.
+Page 49 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 18 was chosen to be replaced.
-Page allocated on frame 29.
+LRU completed!. Page 48 was chosen to be replaced.
+Page allocated on frame 38.
 Allocation for process 8 completed.
 Allocating page for process 9.
-Page 23 was randomly selected to be allocated.
+Page 35 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 46 was chosen to be replaced.
+LRU completed!. Page 42 was chosen to be replaced.
 Page allocated on frame 42.
 Allocation for process 9 completed.
 Allocating page for process 10.
-Page 19 was randomly selected to be allocated.
+Page 6 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 34 was chosen to be replaced.
-Page allocated on frame 43.
+LRU completed!. Page 3 was chosen to be replaced.
+Page allocated on frame 37.
 Allocation for process 10 completed.
 Allocating page for process 11.
-Page 9 was randomly selected to be allocated.
+Page 30 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 32 was chosen to be replaced.
+LRU completed!. Page 48 was chosen to be replaced.
 Page allocated on frame 44.
 Allocation for process 11 completed.
 Allocating page for process 12.
-Page 4 was randomly selected to be allocated.
+Page 45 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 36 was chosen to be replaced.
+LRU completed!. Page 6 was chosen to be replaced.
 Page allocated on frame 45.
 Allocation for process 12 completed.
 Allocating page for process 13.
-Page 16 was randomly selected to be allocated.
+Page 12 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 22 was chosen to be replaced.
-Page allocated on frame 52.
+LRU completed!. Page 23 was chosen to be replaced.
+Page allocated on frame 58.
 Allocation for process 13 completed.
 Allocating page for process 14.
-Page 18 was randomly selected to be allocated.
+Page 15 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 41 was chosen to be replaced.
-Page allocated on frame 53.
+LRU completed!. Page 22 was chosen to be replaced.
+Page allocated on frame 59.
 Allocation for process 14 completed.
 Allocating page for process 15.
-Page 11 was randomly selected to be allocated.
+Page 10 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 29 was chosen to be replaced.
-Page allocated on frame 57.
+LRU completed!. Page 9 was chosen to be replaced.
+Page allocated on frame 60.
 Allocation for process 15 completed.
 Allocating page for process 16.
-Page 0 was randomly selected to be allocated.
+Page 27 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 7 was chosen to be replaced.
+LRU completed!. Page 1 was chosen to be replaced.
 Page allocated on frame 61.
 Allocation for process 16 completed.
 Allocating page for process 17.
-Page 16 was randomly selected to be allocated.
+Page 26 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 24 was chosen to be replaced.
+LRU completed!. Page 0 was chosen to be replaced.
 Page allocated on frame 11.
 Allocation for process 17 completed.
 Allocating page for process 18.
-Page 30 was randomly selected to be allocated.
+Page 42 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 38 was chosen to be replaced.
-Page allocated on frame 14.
+LRU completed!. Page 10 was chosen to be replaced.
+Page allocated on frame 17.
 Allocation for process 18 completed.
 Allocating page for process 19.
-Page 22 was randomly selected to be allocated.
+Page 6 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 37 was chosen to be replaced.
+LRU completed!. Page 23 was chosen to be replaced.
 Page allocated on frame 9.
 Allocation for process 19 completed.
 -------------------------
 Time = 78
 -------------------------
 Allocating page for process 0.
-Page 49 was randomly selected to be allocated.
+Page 10 was randomly selected to be allocated.
 Page allocated on frame 19.
 Allocation for process 0 completed.
 Allocating page for process 1.
@@ -1749,105 +1747,101 @@ Allocating page for process 4.
 Process is blocked and there are still empty frames available. Skipping.
 Allocation for process 4 completed.
 Allocating page for process 5.
-Page 1 was randomly selected to be allocated.
+Page 23 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 37 was chosen to be replaced.
-Page allocated on frame 17.
+LRU completed!. Page 11 was chosen to be replaced.
+Page allocated on frame 29.
 Allocation for process 5 completed.
 Allocating page for process 6.
-Page 20 was randomly selected to be allocated.
-Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 35 was chosen to be replaced.
-Page allocated on frame 27.
+Page 45 was randomly selected to be allocated.
+Page already allocated. Updating reference.
 Allocation for process 6 completed.
 Allocating page for process 7.
-Page 43 was randomly selected to be allocated.
+Page 37 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 0 was chosen to be replaced.
-Page allocated on frame 28.
+LRU completed!. Page 29 was chosen to be replaced.
+Page allocated on frame 25.
 Allocation for process 7 completed.
 Allocating page for process 8.
-Page 0 was randomly selected to be allocated.
+Page 6 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 25 was chosen to be replaced.
+LRU completed!. Page 11 was chosen to be replaced.
 Page allocated on frame 32.
 Allocation for process 8 completed.
 Allocating page for process 9.
-Page 28 was randomly selected to be allocated.
+Page 29 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 9 was chosen to be replaced.
+LRU completed!. Page 43 was chosen to be replaced.
 Page allocated on frame 33.
 Allocation for process 9 completed.
 Allocating page for process 10.
-Page 10 was randomly selected to be allocated.
+Page 11 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 28 was chosen to be replaced.
-Page allocated on frame 46.
+LRU completed!. Page 2 was chosen to be replaced.
+Page allocated on frame 43.
 Allocation for process 10 completed.
 Allocating page for process 11.
-Page 6 was randomly selected to be allocated.
+Page 10 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 7 was chosen to be replaced.
+LRU completed!. Page 43 was chosen to be replaced.
 Page allocated on frame 47.
 Allocation for process 11 completed.
 Allocating page for process 12.
-Page 16 was randomly selected to be allocated.
-Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 23 was chosen to be replaced.
-Page allocated on frame 48.
+Page 4 was randomly selected to be allocated.
+Page already allocated. Updating reference.
 Allocation for process 12 completed.
 Allocating page for process 13.
-Page 48 was randomly selected to be allocated.
+Page 41 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 7 was chosen to be replaced.
-Page allocated on frame 58.
+LRU completed!. Page 19 was chosen to be replaced.
+Page allocated on frame 49.
 Allocation for process 13 completed.
 Allocating page for process 14.
-Page 13 was randomly selected to be allocated.
+Page 21 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 27 was chosen to be replaced.
-Page allocated on frame 56.
+LRU completed!. Page 40 was chosen to be replaced.
+Page allocated on frame 62.
 Allocation for process 14 completed.
 Allocating page for process 15.
-Page 4 was randomly selected to be allocated.
-Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 21 was chosen to be replaced.
-Page allocated on frame 63.
+Page 8 was randomly selected to be allocated.
+Page already allocated. Updating reference.
 Allocation for process 15 completed.
 Allocating page for process 16.
-Page 34 was randomly selected to be allocated.
+Page 22 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 48 was chosen to be replaced.
+LRU completed!. Page 4 was chosen to be replaced.
 Page allocated on frame 0.
 Allocation for process 16 completed.
 Allocating page for process 17.
-Page 0 was randomly selected to be allocated.
+Page 4 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 49 was chosen to be replaced.
+LRU completed!. Page 28 was chosen to be replaced.
 Page allocated on frame 1.
 Allocation for process 17 completed.
 Allocating page for process 18.
-Page 30 was randomly selected to be allocated.
-Page already allocated. Updating reference.
+Page 16 was randomly selected to be allocated.
+Working set limit restriction. Applying LRU algorithm.
+LRU completed!. Page 0 was chosen to be replaced.
+Page allocated on frame 12.
 Allocation for process 18 completed.
 Allocating page for process 19.
-Page 20 was randomly selected to be allocated.
+Page 48 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 29 was chosen to be replaced.
-Page allocated on frame 15.
+LRU completed!. Page 24 was chosen to be replaced.
+Page allocated on frame 14.
 Allocation for process 19 completed.
 -------------------------
 Time = 81
 -------------------------
 Allocating page for process 0.
-Page 32 was randomly selected to be allocated.
+Page 44 was randomly selected to be allocated.
 Page allocated on frame 22.
 Allocation for process 0 completed.
 Allocating page for process 1.
 Process 5 has left memory beacuse it was the oldest one running.
 Blocked process returned to memory.
-Page 14 was randomly selected to be allocated.
-Page allocated on frame 17.
+Page 11 was randomly selected to be allocated.
+Page allocated on frame 16.
 Allocation for process 1 completed.
 Allocating page for process 2.
 Process is blocked and there are still empty frames available. Skipping.
@@ -1862,98 +1856,98 @@ Allocating page for process 5.
 Process is blocked and there are still empty frames available. Skipping.
 Allocation for process 5 completed.
 Allocating page for process 6.
-Page 5 was randomly selected to be allocated.
+Page 12 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 41 was chosen to be replaced.
+LRU completed!. Page 23 was chosen to be replaced.
 Page allocated on frame 30.
 Allocation for process 6 completed.
 Allocating page for process 7.
-Page 39 was randomly selected to be allocated.
+Page 43 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 7 was chosen to be replaced.
-Page allocated on frame 31.
+LRU completed!. Page 47 was chosen to be replaced.
+Page allocated on frame 27.
 Allocation for process 7 completed.
 Allocating page for process 8.
-Page 37 was randomly selected to be allocated.
+Page 48 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 48 was chosen to be replaced.
-Page allocated on frame 35.
+LRU completed!. Page 36 was chosen to be replaced.
+Page allocated on frame 28.
 Allocation for process 8 completed.
 Allocating page for process 9.
-Page 26 was randomly selected to be allocated.
+Page 20 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 27 was chosen to be replaced.
+LRU completed!. Page 8 was chosen to be replaced.
 Page allocated on frame 36.
 Allocation for process 9 completed.
 Allocating page for process 10.
-Page 48 was randomly selected to be allocated.
+Page 26 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 39 was chosen to be replaced.
-Page allocated on frame 37.
+LRU completed!. Page 38 was chosen to be replaced.
+Page allocated on frame 46.
 Allocation for process 10 completed.
 Allocating page for process 11.
 Page 43 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 35 was chosen to be replaced.
+LRU completed!. Page 44 was chosen to be replaced.
 Page allocated on frame 50.
 Allocation for process 11 completed.
 Allocating page for process 12.
-Page 42 was randomly selected to be allocated.
+Page 33 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 1 was chosen to be replaced.
+LRU completed!. Page 47 was chosen to be replaced.
 Page allocated on frame 51.
 Allocation for process 12 completed.
 Allocating page for process 13.
-Page 18 was randomly selected to be allocated.
+Page 43 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 31 was chosen to be replaced.
-Page allocated on frame 55.
+LRU completed!. Page 10 was chosen to be replaced.
+Page allocated on frame 52.
 Allocation for process 13 completed.
 Allocating page for process 14.
 Page 6 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 44 was chosen to be replaced.
-Page allocated on frame 62.
+LRU completed!. Page 4 was chosen to be replaced.
+Page allocated on frame 53.
 Allocation for process 14 completed.
 Allocating page for process 15.
-Page 43 was randomly selected to be allocated.
+Page 12 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 9 was chosen to be replaced.
-Page allocated on frame 60.
+LRU completed!. Page 3 was chosen to be replaced.
+Page allocated on frame 63.
 Allocation for process 15 completed.
 Allocating page for process 16.
-Page 36 was randomly selected to be allocated.
-Page already allocated. Updating reference.
+Page 19 was randomly selected to be allocated.
+Working set limit restriction. Applying LRU algorithm.
+LRU completed!. Page 13 was chosen to be replaced.
+Page allocated on frame 6.
 Allocation for process 16 completed.
 Allocating page for process 17.
-Page 38 was randomly selected to be allocated.
+Page 48 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 32 was chosen to be replaced.
+LRU completed!. Page 14 was chosen to be replaced.
 Page allocated on frame 2.
 Allocation for process 17 completed.
 Allocating page for process 18.
-Page 17 was randomly selected to be allocated.
+Page 18 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 45 was chosen to be replaced.
-Page allocated on frame 12.
+LRU completed!. Page 8 was chosen to be replaced.
+Page allocated on frame 4.
 Allocation for process 18 completed.
 Allocating page for process 19.
-Page 35 was randomly selected to be allocated.
-Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 18 was chosen to be replaced.
-Page allocated on frame 18.
+Page 31 was randomly selected to be allocated.
+Page already allocated. Updating reference.
 Allocation for process 19 completed.
 -------------------------
 Time = 84
 -------------------------
 Allocating page for process 0.
-Page 39 was randomly selected to be allocated.
+Page 21 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 21 was chosen to be replaced.
+LRU completed!. Page 27 was chosen to be replaced.
 Page allocated on frame 13.
 Allocation for process 0 completed.
 Allocating page for process 1.
-Page 37 was randomly selected to be allocated.
+Page 14 was randomly selected to be allocated.
 Page allocated on frame 20.
 Allocation for process 1 completed.
 Allocating page for process 2.
@@ -1969,94 +1963,98 @@ Allocating page for process 5.
 Process is blocked and there are still empty frames available. Skipping.
 Allocation for process 5 completed.
 Allocating page for process 6.
-Page 28 was randomly selected to be allocated.
+Page 18 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 19 was chosen to be replaced.
+LRU completed!. Page 3 was chosen to be replaced.
 Page allocated on frame 21.
 Allocation for process 6 completed.
 Allocating page for process 7.
-Page 39 was randomly selected to be allocated.
-Page already allocated. Updating reference.
+Page 29 was randomly selected to be allocated.
+Working set limit restriction. Applying LRU algorithm.
+LRU completed!. Page 39 was chosen to be replaced.
+Page allocated on frame 34.
 Allocation for process 7 completed.
 Allocating page for process 8.
-Page 18 was randomly selected to be allocated.
+Page 43 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 42 was chosen to be replaced.
-Page allocated on frame 38.
+LRU completed!. Page 27 was chosen to be replaced.
+Page allocated on frame 35.
 Allocation for process 8 completed.
 Allocating page for process 9.
-Page 40 was randomly selected to be allocated.
+Page 30 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 47 was chosen to be replaced.
+LRU completed!. Page 33 was chosen to be replaced.
 Page allocated on frame 39.
 Allocation for process 9 completed.
 Allocating page for process 10.
-Page 48 was randomly selected to be allocated.
-Page already allocated. Updating reference.
+Page 41 was randomly selected to be allocated.
+Working set limit restriction. Applying LRU algorithm.
+LRU completed!. Page 32 was chosen to be replaced.
+Page allocated on frame 40.
 Allocation for process 10 completed.
 Allocating page for process 11.
-Page 36 was randomly selected to be allocated.
+Page 49 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 17 was chosen to be replaced.
+LRU completed!. Page 24 was chosen to be replaced.
 Page allocated on frame 41.
 Allocation for process 11 completed.
 Allocating page for process 12.
-Page 41 was randomly selected to be allocated.
+Page 23 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 6 was chosen to be replaced.
-Page allocated on frame 54.
+LRU completed!. Page 31 was chosen to be replaced.
+Page allocated on frame 48.
 Allocation for process 12 completed.
 Allocating page for process 13.
-Page 11 was randomly selected to be allocated.
-Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 35 was chosen to be replaced.
-Page allocated on frame 49.
+Page 12 was randomly selected to be allocated.
+Page already allocated. Updating reference.
 Allocation for process 13 completed.
 Allocating page for process 14.
-Page 40 was randomly selected to be allocated.
+Page 8 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 38 was chosen to be replaced.
-Page allocated on frame 59.
+LRU completed!. Page 28 was chosen to be replaced.
+Page allocated on frame 56.
 Allocation for process 14 completed.
 Allocating page for process 15.
-Page 25 was randomly selected to be allocated.
+Page 47 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 5 was chosen to be replaced.
+LRU completed!. Page 33 was chosen to be replaced.
 Page allocated on frame 3.
 Allocation for process 15 completed.
 Allocating page for process 16.
-Page 13 was randomly selected to be allocated.
+Page 18 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 5 was chosen to be replaced.
-Page allocated on frame 6.
+LRU completed!. Page 2 was chosen to be replaced.
+Page allocated on frame 7.
 Allocation for process 16 completed.
 Allocating page for process 17.
-Page 21 was randomly selected to be allocated.
+Page 24 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 34 was chosen to be replaced.
+LRU completed!. Page 30 was chosen to be replaced.
 Page allocated on frame 10.
 Allocation for process 17 completed.
 Allocating page for process 18.
-Page 46 was randomly selected to be allocated.
-Page already allocated. Updating reference.
+Page 47 was randomly selected to be allocated.
+Working set limit restriction. Applying LRU algorithm.
+LRU completed!. Page 33 was chosen to be replaced.
+Page allocated on frame 5.
 Allocation for process 18 completed.
 Allocating page for process 19.
-Page 45 was randomly selected to be allocated.
+Page 13 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 24 was chosen to be replaced.
+LRU completed!. Page 5 was chosen to be replaced.
 Page allocated on frame 8.
 Allocation for process 19 completed.
 -------------------------
 Time = 87
 -------------------------
 Allocating page for process 0.
-Page 35 was randomly selected to be allocated.
+Page 37 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 36 was chosen to be replaced.
-Page allocated on frame 16.
+LRU completed!. Page 24 was chosen to be replaced.
+Page allocated on frame 15.
 Allocation for process 0 completed.
 Allocating page for process 1.
-Page 3 was randomly selected to be allocated.
+Page 9 was randomly selected to be allocated.
 Page allocated on frame 23.
 Allocation for process 1 completed.
 Allocating page for process 2.
@@ -2072,85 +2070,87 @@ Allocating page for process 5.
 Process is blocked and there are still empty frames available. Skipping.
 Allocation for process 5 completed.
 Allocating page for process 6.
-Page 35 was randomly selected to be allocated.
+Page 8 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 33 was chosen to be replaced.
-Page allocated on frame 24.
+LRU completed!. Page 29 was chosen to be replaced.
+Page allocated on frame 26.
 Allocation for process 6 completed.
 Allocating page for process 7.
-Page 24 was randomly selected to be allocated.
-Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 48 was chosen to be replaced.
-Page allocated on frame 34.
-Allocation for process 7 completed.
-Allocating page for process 8.
-Page 29 was randomly selected to be allocated.
-Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 7 was chosen to be replaced.
-Page allocated on frame 29.
-Allocation for process 8 completed.
-Allocating page for process 9.
 Page 35 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 23 was chosen to be replaced.
+LRU completed!. Page 12 was chosen to be replaced.
+Page allocated on frame 31.
+Allocation for process 7 completed.
+Allocating page for process 8.
+Page 30 was randomly selected to be allocated.
+Working set limit restriction. Applying LRU algorithm.
+LRU completed!. Page 49 was chosen to be replaced.
+Page allocated on frame 38.
+Allocation for process 8 completed.
+Allocating page for process 9.
+Page 36 was randomly selected to be allocated.
+Working set limit restriction. Applying LRU algorithm.
+LRU completed!. Page 35 was chosen to be replaced.
 Page allocated on frame 42.
 Allocation for process 9 completed.
 Allocating page for process 10.
-Page 17 was randomly selected to be allocated.
+Page 30 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
 LRU completed!. Page 6 was chosen to be replaced.
-Page allocated on frame 40.
+Page allocated on frame 37.
 Allocation for process 10 completed.
 Allocating page for process 11.
-Page 22 was randomly selected to be allocated.
+Page 15 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 9 was chosen to be replaced.
+LRU completed!. Page 30 was chosen to be replaced.
 Page allocated on frame 44.
 Allocation for process 11 completed.
 Allocating page for process 12.
-Page 6 was randomly selected to be allocated.
+Page 32 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 4 was chosen to be replaced.
+LRU completed!. Page 45 was chosen to be replaced.
 Page allocated on frame 45.
 Allocation for process 12 completed.
 Allocating page for process 13.
-Page 23 was randomly selected to be allocated.
+Page 36 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 16 was chosen to be replaced.
-Page allocated on frame 52.
+LRU completed!. Page 24 was chosen to be replaced.
+Page allocated on frame 55.
 Allocation for process 13 completed.
 Allocating page for process 14.
-Page 15 was randomly selected to be allocated.
+Page 27 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 18 was chosen to be replaced.
-Page allocated on frame 53.
+LRU completed!. Page 15 was chosen to be replaced.
+Page allocated on frame 59.
 Allocation for process 14 completed.
 Allocating page for process 15.
-Page 42 was randomly selected to be allocated.
+Page 3 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 11 was chosen to be replaced.
-Page allocated on frame 57.
+LRU completed!. Page 10 was chosen to be replaced.
+Page allocated on frame 60.
 Allocation for process 15 completed.
 Allocating page for process 16.
-Page 12 was randomly selected to be allocated.
+Page 36 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 0 was chosen to be replaced.
+LRU completed!. Page 27 was chosen to be replaced.
 Page allocated on frame 61.
 Allocation for process 16 completed.
 Allocating page for process 17.
-Page 32 was randomly selected to be allocated.
+Page 45 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 16 was chosen to be replaced.
+LRU completed!. Page 26 was chosen to be replaced.
 Page allocated on frame 11.
 Allocation for process 17 completed.
 Allocating page for process 18.
-Page 30 was randomly selected to be allocated.
-Page already allocated. Updating reference.
+Page 35 was randomly selected to be allocated.
+Working set limit restriction. Applying LRU algorithm.
+LRU completed!. Page 42 was chosen to be replaced.
+Page allocated on frame 17.
 Allocation for process 18 completed.
 Allocating page for process 19.
-Page 3 was randomly selected to be allocated.
+Page 9 was randomly selected to be allocated.
 Working set limit restriction. Applying LRU algorithm.
-LRU completed!. Page 22 was chosen to be replaced.
+LRU completed!. Page 6 was chosen to be replaced.
 Page allocated on frame 9.
 Allocation for process 19 completed.
 ******End of execution.******
